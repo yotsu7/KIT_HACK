@@ -10,13 +10,17 @@ import UIKit
 
 class ConnectionDB{
     
-    func recomendImage(){
+    func recomendImage() -> [String]{
         var api = JSON(url: "http://153.120.166.12/face_selections/0.json")
+        var girlsImageArray: [String] = []
         println("\(api.length)")
-        var x = api[1]["face_type_id"]
-        var y = api[1]["file_name"]
-        println("\(x)")
-        println("\(y)")
+        
+        for index in 0..<5 {
+            girlsImageArray.append(api[index]["file_name"].toString())
+        }
+
+        
+        return girlsImageArray
     }
     
 }
