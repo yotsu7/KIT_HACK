@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MDCSwipeToChoose
 
 class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate{
     
