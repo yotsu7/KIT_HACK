@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5D4BBD91BADF612008505E6 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4BBD81BADF612008505E6 /* TabbarViewController.swift */; };
+		A5D4BBDB1BADF8BD008505E6 /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4BBDA1BADF8BD008505E6 /* TalkViewController.swift */; };
 		DAA79E254B9C839700928112 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76254271D6C29297F62390EF /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DD34E2491BAD68AD00CB5B35 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34E2481BAD68AD00CB5B35 /* ProfileViewController.swift */; };
 		DD34E24B1BAD697700CB5B35 /* faceImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD34E24A1BAD697700CB5B35 /* faceImage.jpg */; };
@@ -43,6 +45,8 @@
 		2A9C66C97D44BF384911D2DC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		76254271D6C29297F62390EF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		771C3F7F418DCB48D198DD07 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A5D4BBD81BADF612008505E6 /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		A5D4BBDA1BADF8BD008505E6 /* TalkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkViewController.swift; sourceTree = "<group>"; };
 		DD34E2481BAD68AD00CB5B35 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DD34E24A1BAD697700CB5B35 /* faceImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = faceImage.jpg; sourceTree = "<group>"; };
 		DD34E24C1BAD957300CB5B35 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -130,7 +134,9 @@
 			children = (
 				DD970F101BAD545500F098D3 /* AppDelegate.swift */,
 				DD970F151BAD545500F098D3 /* ViewController.swift */,
+				A5D4BBD81BADF612008505E6 /* TabbarViewController.swift */,
 				DD34E24E1BAD993C00CB5B35 /* SelectPreferenceViewController.swift */,
+				A5D4BBDA1BADF8BD008505E6 /* TalkViewController.swift */,
 				DD34E24C1BAD957300CB5B35 /* FirstViewController.swift */,
 				DD34E2481BAD68AD00CB5B35 /* ProfileViewController.swift */,
 				DD970F361BAD571E00F098D3 /* json.swift */,
@@ -343,6 +349,8 @@
 				DD970F141BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld in Sources */,
 				DD34E24F1BAD993C00CB5B35 /* SelectPreferenceViewController.swift in Sources */,
 				DD970F111BAD545500F098D3 /* AppDelegate.swift in Sources */,
+				A5D4BBDB1BADF8BD008505E6 /* TalkViewController.swift in Sources */,
+				A5D4BBD91BADF612008505E6 /* TabbarViewController.swift in Sources */,
 				DD34E24D1BAD957300CB5B35 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
