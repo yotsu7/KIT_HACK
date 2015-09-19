@@ -10,16 +10,18 @@ import UIKit
 
 class ProfileViewController: UIViewController, UITextFieldDelegate{
 
+    var appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
     private var myImageView: UIImageView!
     private var profileLabel: [UILabel]    = []
     private var hobbyTextField             = UITextField(frame: CGRectMake(0, 0, 300, 50))
     private var nextBtn                    = UIButton(frame: CGRectMake(0, 0, 200, 40))
     private var backBtn                    = UIButton(frame: CGRectMake(0, 0, 200, 40))
     private var profileTextArray: [String] = ["氏名：村上優太","性別:男","住所:富山県富山市","生年月日：1月1日","職歴：勇者","学歴：大卒","病歴：なし","犯罪歴：なし"]
-    private var profileArray: [String] = ["村上優太","0","富山県富山市","2016-01-01","勇者","大卒","なし","なし",]
+    private var profileArray: [String] = ["村上優太","2016-01-01","123456","富山県富山市","http://girlschannel.net/post_img/2013/01/gFLq2ipbIOOiFr1_kExIH_78.jpeg","1","サッカー"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         myImageView                = UIImageView(frame: CGRectMake(0, 0, 100, 100))
         let myImage                = UIImage(named: "faceImage.jpg")
@@ -76,6 +78,7 @@ class ProfileViewController: UIViewController, UITextFieldDelegate{
     }
     internal func onClickNextBtn(sender: UIButton){
         println("onClickNextBtn")
+        appDelegate.profileArray = profileTextArray
         var targetView: AnyObject = self.storyboard!.instantiateViewControllerWithIdentifier( "selectPreference" )
         self.presentViewController( targetView as! UIViewController, animated: true, completion: nil)
     }

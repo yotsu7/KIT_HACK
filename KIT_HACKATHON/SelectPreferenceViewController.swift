@@ -22,20 +22,20 @@ class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate
     ]
     var girlsTypeArray = [8,11,2,12,12]
     var sendType: [Int] = []
-    let priorityProcessing = "priorityProcessing"
+//    let priorityProcessing = "priorityProcessing"
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
         
-        CD.sign_in("11")
-        
-        NSNotificationCenter.defaultCenter().addObserver(
-            self,
-            selector: "priorityProcessing:",
-            name: priorityProcessing,
-            object: nil
-        )
+//        CD.sign_in("11")
+//        
+//        NSNotificationCenter.defaultCenter().addObserver(
+//            self,
+//            selector: "priorityProcessing:",
+//            name: priorityProcessing,
+//            object: nil
+//        )
 
 
         var accessFlg = appDelegate.accessFlg
@@ -53,11 +53,11 @@ class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate
     
 
 
-// Notification Method（通知受信時のメソッド）
-func priorityProcessing(notification: NSNotification) {
-    var sample = appDelegate.accessToken
-    println("\(sample!)")
-}
+    // Notification Method（通知受信時のメソッド）
+//    func priorityProcessing(notification: NSNotification) {
+//        var sample = appDelegate.accessToken
+//        println("\(sample!)")
+//    }
 
     func setImage(accessFlg: Bool){
         if accessFlg{
@@ -139,10 +139,14 @@ func priorityProcessing(notification: NSNotification) {
         } else {
             println("Yes")
             println("\(swipeCount)")
-            sendType.append(swipeCount)
+            sendType.append(girlsTypeArray[swipeCount])
             
         }
         swipeCount++
+    }
+    @IBAction func onClickBtn(sender: AnyObject) {
+        println("\(sendType)")
+        appDelegate.faceType = sendType
     }
     
     
