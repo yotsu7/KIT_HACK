@@ -90,6 +90,8 @@ class ViewController: UIViewController , UITextFieldDelegate{
     */
     internal func onClickMyButton(sender: UIButton){
         print(message)
+        var targetView: AnyObject = self.storyboard!.instantiateViewControllerWithIdentifier( "profile" )
+        self.presentViewController( targetView as! UIViewController, animated: true, completion: nil)
     }
     
 

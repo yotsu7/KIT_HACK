@@ -10,6 +10,7 @@
 		3C8646577DB3BA2785C78253 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8CEBF71610979F2B7784BA /* libPods.a */; };
 		DD34E2491BAD68AD00CB5B35 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34E2481BAD68AD00CB5B35 /* ProfileViewController.swift */; };
 		DD34E24B1BAD697700CB5B35 /* faceImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DD34E24A1BAD697700CB5B35 /* faceImage.jpeg */; };
+		DD34E24D1BAD957300CB5B35 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34E24C1BAD957300CB5B35 /* FirstViewController.swift */; };
 		DD970F111BAD545500F098D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F101BAD545500F098D3 /* AppDelegate.swift */; };
 		DD970F141BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD970F121BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld */; };
 		DD970F161BAD545500F098D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F151BAD545500F098D3 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 		8D8CEBF71610979F2B7784BA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD34E2481BAD68AD00CB5B35 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DD34E24A1BAD697700CB5B35 /* faceImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = faceImage.jpeg; sourceTree = "<group>"; };
+		DD34E24C1BAD957300CB5B35 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		DD970F0B1BAD545400F098D3 /* KIT_HACKATHON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIT_HACKATHON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD970F0F1BAD545500F098D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD970F101BAD545500F098D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			children = (
 				DD970F101BAD545500F098D3 /* AppDelegate.swift */,
 				DD970F151BAD545500F098D3 /* ViewController.swift */,
+				DD34E24C1BAD957300CB5B35 /* FirstViewController.swift */,
 				DD34E2481BAD68AD00CB5B35 /* ProfileViewController.swift */,
 				DD970F361BAD571E00F098D3 /* json.swift */,
 				DD970F171BAD545500F098D3 /* Main.storyboard */,
@@ -312,6 +315,7 @@
 				DD970F371BAD571E00F098D3 /* json.swift in Sources */,
 				DD970F141BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld in Sources */,
 				DD970F111BAD545500F098D3 /* AppDelegate.swift in Sources */,
+				DD34E24D1BAD957300CB5B35 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
