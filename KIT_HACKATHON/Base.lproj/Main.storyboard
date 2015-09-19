@@ -22,5 +22,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="ZaU-FV-FuR">
+            <objects>
+                <viewController storyboardIdentifier="profile" id="GKp-Yr-x3v" customClass="ProfileViewController" customModule="KIT_HACKATHON" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oCY-dg-eXF"/>
+                        <viewControllerLayoutGuide type="bottom" id="soY-6V-U8i"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I5o-fk-kzL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8cX-c4-AT8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="760.5" y="319.5"/>
+        </scene>
     </scenes>
 </document>

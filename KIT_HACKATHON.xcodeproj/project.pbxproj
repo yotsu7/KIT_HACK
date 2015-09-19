@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3C8646577DB3BA2785C78253 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8CEBF71610979F2B7784BA /* libPods.a */; };
+		DD34E2491BAD68AD00CB5B35 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34E2481BAD68AD00CB5B35 /* ProfileViewController.swift */; };
+		DD34E24B1BAD697700CB5B35 /* faceImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DD34E24A1BAD697700CB5B35 /* faceImage.jpeg */; };
 		DD970F111BAD545500F098D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F101BAD545500F098D3 /* AppDelegate.swift */; };
 		DD970F141BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD970F121BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld */; };
 		DD970F161BAD545500F098D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F151BAD545500F098D3 /* ViewController.swift */; };
@@ -33,6 +35,8 @@
 		2A9C66C97D44BF384911D2DC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		771C3F7F418DCB48D198DD07 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8D8CEBF71610979F2B7784BA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD34E2481BAD68AD00CB5B35 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DD34E24A1BAD697700CB5B35 /* faceImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = faceImage.jpeg; sourceTree = "<group>"; };
 		DD970F0B1BAD545400F098D3 /* KIT_HACKATHON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIT_HACKATHON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD970F0F1BAD545500F098D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD970F101BAD545500F098D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 			children = (
 				DD970F101BAD545500F098D3 /* AppDelegate.swift */,
 				DD970F151BAD545500F098D3 /* ViewController.swift */,
+				DD34E2481BAD68AD00CB5B35 /* ProfileViewController.swift */,
 				DD970F361BAD571E00F098D3 /* json.swift */,
 				DD970F171BAD545500F098D3 /* Main.storyboard */,
 				DD970F1A1BAD545500F098D3 /* Images.xcassets */,
@@ -125,6 +130,7 @@
 		DD970F0E1BAD545400F098D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD34E24A1BAD697700CB5B35 /* faceImage.jpeg */,
 				DD970F0F1BAD545500F098D3 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD34E24B1BAD697700CB5B35 /* faceImage.jpeg in Resources */,
 				DD970F191BAD545500F098D3 /* Main.storyboard in Resources */,
 				DD970F1E1BAD545500F098D3 /* LaunchScreen.xib in Resources */,
 				DD970F1B1BAD545500F098D3 /* Images.xcassets in Resources */,
@@ -299,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD34E2491BAD68AD00CB5B35 /* ProfileViewController.swift in Sources */,
 				DD970F161BAD545500F098D3 /* ViewController.swift in Sources */,
 				DD970F351BAD558300F098D3 /* cocoapods.m in Sources */,
 				DD970F371BAD571E00F098D3 /* json.swift in Sources */,
