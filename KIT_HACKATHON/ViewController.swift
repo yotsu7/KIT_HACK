@@ -10,32 +10,22 @@ import UIKit
 
 class ViewController: UIViewController , UITextFieldDelegate{
     
-    let textfield = UITextField(frame: CGRectMake(0, 0, 200, 30))
-    var myButton = UIButton(frame: CGRectMake(0,0,200,40))
-    var label = UILabel(frame: CGRectMake(0, 0, 0, 0))
     var message = ""
+    var json:NSData!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        /*ラベル*/
-        label.layer.position = CGPoint(x: 57, y: 159)
-        //文字色
-        label.textColor = UIColor.blackColor()
-        //影の色
-        //label.shadowColor = UIColor.grayColor()
-        //文字
-        label.text = "あなたのマイナンバーを入力"
-        label.sizeToFit()
-        //表示する
-        self.view.addSubview(label)
-        /*ラベル*/
+        /*タップ*/
+        var tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "DismissKeyboard")
+        view.addGestureRecognizer(tap)
+        /*タップ*/
         
         
         
         /*テキストフィールド*/
-        
+        let textfield = UITextField(frame: CGRectMake(0, 0, 200, 30))
         //薄く文字を表示
-        textfield.placeholder = "マイナンバーを入力"
+        textfield.placeholder = "入力"
         //テキストフィールドの場所
         textfield.layer.position = CGPoint (x: self.view.frame.width/2 , y: 200)
         //テキストフィールドの枠
@@ -43,31 +33,75 @@ class ViewController: UIViewController , UITextFieldDelegate{
         //テキストフィールドの値を保存するためのもの
         textfield.delegate = self
         //テキストフィールドを表示
+        textfield.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
         self.view.addSubview(textfield)
         /*テキストフィールド*/
+
         
         
+        /*ラベル*/
+        var label = UILabel(frame: CGRectMake(0, 0, 250, 20))
+        //フォント指定
+        label.font = UIFont(name: "Zapfino",size: 16)
+        //ラベルの位置
+        label.layer.position = CGPoint(x: self.view.bounds.width / 2, y: view.bounds.height / 2 - 110)
+        //文字
+        label.text = "あなたのマイナンバーを入力"
+        //文字色
+        label.textColor = UIColor.blackColor()
+        // 文字を中央寄せ
+        label.textAlignment = NSTextAlignment.Center
+        //表示する
+        self.view.addSubview(label)
+        /*ラベル*/
         
+
         
-        /*ボタン*/
-        myButton.backgroundColor = UIColor.redColor()
+        /*サインアップボタン*/
+        var signupButton = UIButton(frame: CGRectMake(0,0,100,30))
+        //色を変える
+        signupButton.backgroundColor = UIColorFromRGB(0x2ecc71)
         // 枠を丸くする
-        myButton.layer.masksToBounds = true
+        signupButton.layer.masksToBounds = true
         // タイトルを設定する(通常時)
-        myButton.setTitle("login", forState: UIControlState.Normal)
-        myButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        signupButton.setTitle("登録", forState: UIControlState.Normal)
+        signupButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
         // タイトルを設定する(ボタンがハイライトされた時)
-        myButton.setTitle("login", forState: UIControlState.Highlighted)
-        myButton.setTitleColor(UIColor.blackColor(), forState: UIControlState.Highlighted)
+        signupButton.setTitle("登録", forState: UIControlState.Highlighted)
+        signupButton.setTitleColor(UIColor.blackColor(), forState: UIControlState.Highlighted)
         // コーナーの半径を設定する
-        myButton.layer.cornerRadius = 20.0
+        signupButton.layer.cornerRadius = 5.0
         // ボタンの位置を指定する
-        myButton.layer.position = CGPoint(x: self.view.frame.width/2, y:450)
+        signupButton.layer.position = CGPoint(x: self.view.frame.width/2 + 60 , y:400)
         // イベントを追加する
-        myButton.addTarget(self, action: "onClickMyButton:", forControlEvents: .TouchUpInside)
+        signupButton.addTarget(self, action: "onClickButton:", forControlEvents: .TouchUpInside)
         // ボタンをViewに追加する
-        self.view.addSubview(myButton)
-        /*ボタン*/
+        self.view.addSubview(signupButton)
+        /*サインアップボタン*/
+        
+        
+        
+        /*ログオンボタン*/
+        var logonButton = UIButton(frame: CGRectMake(0,0,100,30))
+        //色を変える
+        logonButton.backgroundColor = UIColor.redColor()
+        // 枠を丸くする
+        logonButton.layer.masksToBounds = true
+        // タイトルを設定する(通常時)
+        logonButton.setTitle("ログイン", forState: UIControlState.Normal)
+        logonButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        // タイトルを設定する(ボタンがハイライトされた時)
+        logonButton.setTitle("ログイン", forState: UIControlState.Highlighted)
+        logonButton.setTitleColor(UIColor.blackColor(), forState: UIControlState.Highlighted)
+        // コーナーの半径を設定する
+        logonButton.layer.cornerRadius = 5.0
+        // ボタンの位置を指定する
+        logonButton.layer.position = CGPoint(x: self.view.frame.width/2 - 60 , y:400)
+        // イベントを追加する
+        logonButton.addTarget(self, action: "onClickButton:", forControlEvents: .TouchUpInside)
+        // ボタンをViewに追加する
+        self.view.addSubview(logonButton)
+        /*ログオンボタン*/
     }
     
     override func didReceiveMemoryWarning() {
@@ -77,21 +111,78 @@ class ViewController: UIViewController , UITextFieldDelegate{
     
     
     /*
-    テキストフィールドの入力完了時
+    UITextFieldが編集された直後に呼ばれるデリゲートメソッド.
     */
-    func textFieldShouldReturn(text: UITextField) -> Bool{
-        text.resignFirstResponder()
+    func textFieldDidBeginEditing(text: UITextField){
         message = text.text!
-        return true
     }
     
     /*
-    ボタンのアクション時に設定したメソッド.
+    UITextFieldが編集終了する直前に呼ばれるデリゲートメソッド.
     */
-    internal func onClickMyButton(sender: UIButton){
-        print(message)
+    func textFieldShouldEndEditing(text: UITextField) -> Bool {
+        message = text.text!
+        return true
+    }
+    /*
+    テキストフィールドの入力完了時
+    */
+    func textFieldShouldReturn(text: UITextField) -> Bool{
+        message = text.text!
+        text.resignFirstResponder()
+        return true
+    }
+
+    /*キーボード以外の場所をタップした時に呼び出される*/
+    func DismissKeyboard(){
+        view.endEditing(true)
+        
     }
     
+    /*
+    UIcolorをRGB(16進数)で入力するためのメソッド
+    */
+    func UIColorFromRGB(rgbValue: UInt) -> UIColor {
+        return UIColor(
+            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+            alpha: CGFloat(1.0)
+        )
+    }
+    
+    
+    /*
+    ログオンボタンのアクション時に設定したメソッド
+    */
+    internal func onClickButton(sender: UIButton){
+
+        // Http通信のリクエスト生成.
+        let myCofig:NSURLSessionConfiguration = NSURLSessionConfiguration.defaultSessionConfiguration()
+        let myUrl="http://153.120.166.12/user_sessions.json"
+        let myRequest = NSMutableURLRequest(URL: NSURL(string: myUrl)!)
+        myRequest.HTTPMethod = "POST"
+        myRequest.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        var params: [String: String] = [
+            "my_number": message
+        ]
+        myRequest.HTTPBody = NSJSONSerialization.dataWithJSONObject(params, options: nil, error: nil)
+        println(params)
+
+        var task = NSURLSession.sharedSession().dataTaskWithRequest(myRequest, completionHandler: {data, response, error in
+            if (error == nil) {
+                var result = NSString(data: data, encoding: NSUTF8StringEncoding)!
+                let string: String = result as String // ここだけ必要
+                var api = JSON(string)
+                println(string)
+                println(api)
+            } else {
+                println(error)
+            }
+        })
+        task.resume()
+
+    }
 
 }
 

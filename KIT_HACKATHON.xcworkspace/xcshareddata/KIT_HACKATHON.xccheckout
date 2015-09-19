@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>55189ACB-6EA7-4371-8E5C-B890855FC545</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KIT_HACKATHON</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BF9C2737724067007B24AD2E161093348D6E0ADD</key>
+		<string>https://github.com/yotsu7/KIT_HACK.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KIT_HACKATHON.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BF9C2737724067007B24AD2E161093348D6E0ADD</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yotsu7/KIT_HACK.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BF9C2737724067007B24AD2E161093348D6E0ADD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BF9C2737724067007B24AD2E161093348D6E0ADD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KIT_HACKATHON</string>
+		</dict>
+	</array>
+</dict>
+</plist>
