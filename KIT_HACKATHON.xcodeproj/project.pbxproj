@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD970F111BAD545500F098D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F101BAD545500F098D3 /* AppDelegate.swift */; };
+		DD970F141BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD970F121BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld */; };
+		DD970F161BAD545500F098D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F151BAD545500F098D3 /* ViewController.swift */; };
+		DD970F191BAD545500F098D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD970F171BAD545500F098D3 /* Main.storyboard */; };
+		DD970F1B1BAD545500F098D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD970F1A1BAD545500F098D3 /* Images.xcassets */; };
+		DD970F1E1BAD545500F098D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD970F1C1BAD545500F098D3 /* LaunchScreen.xib */; };
+		DD970F2A1BAD545500F098D3 /* KIT_HACKATHONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F291BAD545500F098D3 /* KIT_HACKATHONTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD970F241BAD545500F098D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD970F031BAD545400F098D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD970F0A1BAD545400F098D3;
+			remoteInfo = KIT_HACKATHON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD970F0B1BAD545400F098D3 /* KIT_HACKATHON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIT_HACKATHON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD970F0F1BAD545500F098D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD970F101BAD545500F098D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD970F131BAD545500F098D3 /* KIT_HACKATHON.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KIT_HACKATHON.xcdatamodel; sourceTree = "<group>"; };
+		DD970F151BAD545500F098D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD970F181BAD545500F098D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD970F1A1BAD545500F098D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD970F1D1BAD545500F098D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD970F231BAD545500F098D3 /* KIT_HACKATHONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIT_HACKATHONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD970F281BAD545500F098D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD970F291BAD545500F098D3 /* KIT_HACKATHONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIT_HACKATHONTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD970F081BAD545400F098D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD970F201BAD545500F098D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD970F021BAD545400F098D3 = {
+			isa = PBXGroup;
+			children = (
+				DD970F0D1BAD545400F098D3 /* KIT_HACKATHON */,
+				DD970F261BAD545500F098D3 /* KIT_HACKATHONTests */,
+				DD970F0C1BAD545400F098D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD970F0C1BAD545400F098D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD970F0B1BAD545400F098D3 /* KIT_HACKATHON.app */,
+				DD970F231BAD545500F098D3 /* KIT_HACKATHONTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD970F0D1BAD545400F098D3 /* KIT_HACKATHON */ = {
+			isa = PBXGroup;
+			children = (
+				DD970F101BAD545500F098D3 /* AppDelegate.swift */,
+				DD970F151BAD545500F098D3 /* ViewController.swift */,
+				DD970F171BAD545500F098D3 /* Main.storyboard */,
+				DD970F1A1BAD545500F098D3 /* Images.xcassets */,
+				DD970F1C1BAD545500F098D3 /* LaunchScreen.xib */,
+				DD970F121BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld */,
+				DD970F0E1BAD545400F098D3 /* Supporting Files */,
+			);
+			path = KIT_HACKATHON;
+			sourceTree = "<group>";
+		};
+		DD970F0E1BAD545400F098D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD970F0F1BAD545500F098D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD970F261BAD545500F098D3 /* KIT_HACKATHONTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD970F291BAD545500F098D3 /* KIT_HACKATHONTests.swift */,
+				DD970F271BAD545500F098D3 /* Supporting Files */,
+			);
+			path = KIT_HACKATHONTests;
+			sourceTree = "<group>";
+		};
+		DD970F271BAD545500F098D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD970F281BAD545500F098D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD970F0A1BAD545400F098D3 /* KIT_HACKATHON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD970F2D1BAD545500F098D3 /* Build configuration list for PBXNativeTarget "KIT_HACKATHON" */;
+			buildPhases = (
+				DD970F071BAD545400F098D3 /* Sources */,
+				DD970F081BAD545400F098D3 /* Frameworks */,
+				DD970F091BAD545400F098D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIT_HACKATHON;
+			productName = KIT_HACKATHON;
+			productReference = DD970F0B1BAD545400F098D3 /* KIT_HACKATHON.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD970F221BAD545500F098D3 /* KIT_HACKATHONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD970F301BAD545500F098D3 /* Build configuration list for PBXNativeTarget "KIT_HACKATHONTests" */;
+			buildPhases = (
+				DD970F1F1BAD545500F098D3 /* Sources */,
+				DD970F201BAD545500F098D3 /* Frameworks */,
+				DD970F211BAD545500F098D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD970F251BAD545500F098D3 /* PBXTargetDependency */,
+			);
+			name = KIT_HACKATHONTests;
+			productName = KIT_HACKATHONTests;
+			productReference = DD970F231BAD545500F098D3 /* KIT_HACKATHONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD970F031BAD545400F098D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = TakamitsuYotsuyanagi;
+				TargetAttributes = {
+					DD970F0A1BAD545400F098D3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DD970F221BAD545500F098D3 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DD970F0A1BAD545400F098D3;
+					};
+				};
+			};
+			buildConfigurationList = DD970F061BAD545400F098D3 /* Build configuration list for PBXProject "KIT_HACKATHON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD970F021BAD545400F098D3;
+			productRefGroup = DD970F0C1BAD545400F098D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD970F0A1BAD545400F098D3 /* KIT_HACKATHON */,
+				DD970F221BAD545500F098D3 /* KIT_HACKATHONTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD970F091BAD545400F098D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD970F191BAD545500F098D3 /* Main.storyboard in Resources */,
+				DD970F1E1BAD545500F098D3 /* LaunchScreen.xib in Resources */,
+				DD970F1B1BAD545500F098D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD970F211BAD545500F098D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD970F071BAD545400F098D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD970F161BAD545500F098D3 /* ViewController.swift in Sources */,
+				DD970F141BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld in Sources */,
+				DD970F111BAD545500F098D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD970F1F1BAD545500F098D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD970F2A1BAD545500F098D3 /* KIT_HACKATHONTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD970F251BAD545500F098D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD970F0A1BAD545400F098D3 /* KIT_HACKATHON */;
+			targetProxy = DD970F241BAD545500F098D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD970F171BAD545500F098D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD970F181BAD545500F098D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD970F1C1BAD545500F098D3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD970F1D1BAD545500F098D3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD970F2B1BAD545500F098D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD970F2C1BAD545500F098D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD970F2E1BAD545500F098D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KIT_HACKATHON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD970F2F1BAD545500F098D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KIT_HACKATHON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD970F311BAD545500F098D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KIT_HACKATHONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIT_HACKATHON.app/KIT_HACKATHON";
+			};
+			name = Debug;
+		};
+		DD970F321BAD545500F098D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KIT_HACKATHONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIT_HACKATHON.app/KIT_HACKATHON";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD970F061BAD545400F098D3 /* Build configuration list for PBXProject "KIT_HACKATHON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD970F2B1BAD545500F098D3 /* Debug */,
+				DD970F2C1BAD545500F098D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD970F2D1BAD545500F098D3 /* Build configuration list for PBXNativeTarget "KIT_HACKATHON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD970F2E1BAD545500F098D3 /* Debug */,
+				DD970F2F1BAD545500F098D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD970F301BAD545500F098D3 /* Build configuration list for PBXNativeTarget "KIT_HACKATHONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD970F311BAD545500F098D3 /* Debug */,
+				DD970F321BAD545500F098D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD970F121BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD970F131BAD545500F098D3 /* KIT_HACKATHON.xcdatamodel */,
+			);
+			currentVersion = DD970F131BAD545500F098D3 /* KIT_HACKATHON.xcdatamodel */;
+			path = KIT_HACKATHON.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD970F031BAD545400F098D3 /* Project object */;
+}
