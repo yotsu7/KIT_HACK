@@ -16,7 +16,7 @@ class ProfileViewController: UIViewController, UITextFieldDelegate{
     private var nextBtn                    = UIButton(frame: CGRectMake(0, 0, 200, 40))
     private var backBtn                    = UIButton(frame: CGRectMake(0, 0, 200, 40))
     private var profileTextArray: [String] = ["氏名：村上優太","性別:男","住所:富山県富山市","生年月日：1月1日","職歴：勇者","学歴：大卒","病歴：なし","犯罪歴：なし"]
-    private var profileArray: [String] = ["村上優太","男","富山県富山市","1月1日","勇者","大卒","なし","なし",]
+    private var profileArray: [String] = ["村上優太","0","富山県富山市","2016-01-01","勇者","大卒","なし","なし",]
     
     override func viewDidLoad() {
         super.viewDidLoad()
