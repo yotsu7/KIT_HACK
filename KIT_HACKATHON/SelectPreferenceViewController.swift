@@ -10,19 +10,23 @@ import UIKit
 
 class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate{
     
-    var swipeCount = 0
+    var CD = ConnectionDB()
+    
+    var swipeCount: Int = 0
     var appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
     var girlsImageArray = [
         UIImage(named: "no1.jpg")!,UIImage(named: "no2.jpg")!,
         UIImage(named: "no3.jpg")!,UIImage(named: "no4.jpg")!,
         UIImage(named: "no5.jpg")!,
     ]
-    var girlsTypeArray = [8,11,2,2,12,12]
-
+    var girlsTypeArray = [8,11,2,12,12]
+    var sendType: [Int] = []
     
     override func viewDidLoad() {
-        super.viewDidLoad()
         
+        super.viewDidLoad()
+        CD.recomendImage()
+
         var accessFlg = appDelegate.accessFlg
         if accessFlg == nil{
             accessFlg = false
@@ -51,9 +55,9 @@ class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate
     func createSwipeView(img: UIImage) -> UIView {
         let options = MDCSwipeToChooseViewOptions()
         options.delegate = self
-        options.likedText = "Like"
+        options.likedText = "Yes"
         options.likedColor = UIColor.greenColor()
-        options.nopeText = "Later"
+        options.nopeText = "No"
         options.nopeColor = UIColor.lightGrayColor()
         
         let swipeView = MDCSwipeToChooseView(
@@ -72,9 +76,12 @@ class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate
     
     func view(view: UIView!, wasChosenWithDirection direction: MDCSwipeDirection) {
         if (direction == MDCSwipeDirection.Left) {
-            println("Later")
+            println("No")
         } else {
-            println("Like")
+            println("Yes")
+            println("\(swipeCount)")
+            sendType.append(swipeCount)
+            
         }
         swipeCount++
     }
