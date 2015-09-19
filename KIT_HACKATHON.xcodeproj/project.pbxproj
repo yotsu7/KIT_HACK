@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C8646577DB3BA2785C78253 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8CEBF71610979F2B7784BA /* libPods.a */; };
+		DAA79E254B9C839700928112 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76254271D6C29297F62390EF /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DD34E2491BAD68AD00CB5B35 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34E2481BAD68AD00CB5B35 /* ProfileViewController.swift */; };
+		DD34E24B1BAD697700CB5B35 /* faceImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD34E24A1BAD697700CB5B35 /* faceImage.jpg */; };
+		DD34E24D1BAD957300CB5B35 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34E24C1BAD957300CB5B35 /* FirstViewController.swift */; };
+		DD34E24F1BAD993C00CB5B35 /* SelectPreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34E24E1BAD993C00CB5B35 /* SelectPreferenceViewController.swift */; };
+		DD34E25B1BAD9C0500CB5B35 /* no1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD34E25A1BAD9C0500CB5B35 /* no1.jpg */; };
+		DD34E25D1BAD9C0E00CB5B35 /* no2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD34E25C1BAD9C0E00CB5B35 /* no2.jpg */; };
+		DD34E2611BAD9C2400CB5B35 /* no4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD34E2601BAD9C2400CB5B35 /* no4.jpg */; };
+		DD34E2651BADB21400CB5B35 /* no5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD34E2641BADB21400CB5B35 /* no5.jpg */; };
+		DD34E2671BADB29300CB5B35 /* no3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD34E2661BADB29300CB5B35 /* no3.jpg */; };
+		DD34E26D1BADD14E00CB5B35 /* ConectionDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34E26C1BADD14E00CB5B35 /* ConectionDB.swift */; };
 		DD970F111BAD545500F098D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F101BAD545500F098D3 /* AppDelegate.swift */; };
 		DD970F141BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD970F121BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld */; };
 		DD970F161BAD545500F098D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F151BAD545500F098D3 /* ViewController.swift */; };
@@ -31,8 +41,18 @@
 
 /* Begin PBXFileReference section */
 		2A9C66C97D44BF384911D2DC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		76254271D6C29297F62390EF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		771C3F7F418DCB48D198DD07 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		8D8CEBF71610979F2B7784BA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD34E2481BAD68AD00CB5B35 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DD34E24A1BAD697700CB5B35 /* faceImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = faceImage.jpg; sourceTree = "<group>"; };
+		DD34E24C1BAD957300CB5B35 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DD34E24E1BAD993C00CB5B35 /* SelectPreferenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectPreferenceViewController.swift; sourceTree = "<group>"; };
+		DD34E25A1BAD9C0500CB5B35 /* no1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no1.jpg; sourceTree = "<group>"; };
+		DD34E25C1BAD9C0E00CB5B35 /* no2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no2.jpg; sourceTree = "<group>"; };
+		DD34E2601BAD9C2400CB5B35 /* no4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no4.jpg; sourceTree = "<group>"; };
+		DD34E2641BADB21400CB5B35 /* no5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no5.jpg; sourceTree = "<group>"; };
+		DD34E2661BADB29300CB5B35 /* no3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no3.jpg; sourceTree = "<group>"; };
+		DD34E26C1BADD14E00CB5B35 /* ConectionDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConectionDB.swift; sourceTree = "<group>"; };
 		DD970F0B1BAD545400F098D3 /* KIT_HACKATHON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIT_HACKATHON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD970F0F1BAD545500F098D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD970F101BAD545500F098D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C8646577DB3BA2785C78253 /* libPods.a in Frameworks */,
+				DAA79E254B9C839700928112 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +91,7 @@
 		2B324512DBC4CFBE47C29509 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8D8CEBF71610979F2B7784BA /* libPods.a */,
+				76254271D6C29297F62390EF /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,7 +130,11 @@
 			children = (
 				DD970F101BAD545500F098D3 /* AppDelegate.swift */,
 				DD970F151BAD545500F098D3 /* ViewController.swift */,
+				DD34E24E1BAD993C00CB5B35 /* SelectPreferenceViewController.swift */,
+				DD34E24C1BAD957300CB5B35 /* FirstViewController.swift */,
+				DD34E2481BAD68AD00CB5B35 /* ProfileViewController.swift */,
 				DD970F361BAD571E00F098D3 /* json.swift */,
+				DD34E26C1BADD14E00CB5B35 /* ConectionDB.swift */,
 				DD970F171BAD545500F098D3 /* Main.storyboard */,
 				DD970F1A1BAD545500F098D3 /* Images.xcassets */,
 				DD970F1C1BAD545500F098D3 /* LaunchScreen.xib */,
@@ -125,6 +149,12 @@
 		DD970F0E1BAD545400F098D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD34E2661BADB29300CB5B35 /* no3.jpg */,
+				DD34E2641BADB21400CB5B35 /* no5.jpg */,
+				DD34E2601BAD9C2400CB5B35 /* no4.jpg */,
+				DD34E25C1BAD9C0E00CB5B35 /* no2.jpg */,
+				DD34E25A1BAD9C0500CB5B35 /* no1.jpg */,
+				DD34E24A1BAD697700CB5B35 /* faceImage.jpg */,
 				DD970F0F1BAD545500F098D3 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -231,9 +261,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD34E25B1BAD9C0500CB5B35 /* no1.jpg in Resources */,
+				DD34E24B1BAD697700CB5B35 /* faceImage.jpg in Resources */,
 				DD970F191BAD545500F098D3 /* Main.storyboard in Resources */,
+				DD34E2651BADB21400CB5B35 /* no5.jpg in Resources */,
 				DD970F1E1BAD545500F098D3 /* LaunchScreen.xib in Resources */,
 				DD970F1B1BAD545500F098D3 /* Images.xcassets in Resources */,
+				DD34E25D1BAD9C0E00CB5B35 /* no2.jpg in Resources */,
+				DD34E2611BAD9C2400CB5B35 /* no4.jpg in Resources */,
+				DD34E2671BADB29300CB5B35 /* no3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,11 +335,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD34E2491BAD68AD00CB5B35 /* ProfileViewController.swift in Sources */,
+				DD34E26D1BADD14E00CB5B35 /* ConectionDB.swift in Sources */,
 				DD970F161BAD545500F098D3 /* ViewController.swift in Sources */,
 				DD970F351BAD558300F098D3 /* cocoapods.m in Sources */,
 				DD970F371BAD571E00F098D3 /* json.swift in Sources */,
 				DD970F141BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld in Sources */,
+				DD34E24F1BAD993C00CB5B35 /* SelectPreferenceViewController.swift in Sources */,
 				DD970F111BAD545500F098D3 /* AppDelegate.swift in Sources */,
+				DD34E24D1BAD957300CB5B35 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

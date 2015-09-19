@@ -7,149 +7,181 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FED90E3E0DF7DFF0F8BD1E934997A4E /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA940EE4ECDC66FE861D41327F8EA0D /* Pods-dummy.m */; };
-		13CEC2C6979AA84510BDBC6917A9E5B0 /* MDCSwipeToChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3410908B598E057C132F91D3C0B7851 /* MDCSwipeToChooseView.m */; };
-		19351A199ACD6BA914855099A00AD4EE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AC30B9821BD0A44556782BE47CD738 /* QuartzCore.framework */; };
-		1B90DF4F72D8C5E0755BB3066903231A /* UIView+MDCBorderedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = C2EF438DC46BA53BDB3962B0B98A59CC /* UIView+MDCBorderedLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		33B6B3408F4668B31F7B29AB5CDCCCDF /* MDCSwipeToChoose-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A7BD37807A3AF201BAF18FE580894B /* MDCSwipeToChoose-dummy.m */; };
-		3B2B987A9D8806D244DCB8494CBD7300 /* MDCSwipeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D2BA92D360F3EFA597873816E4DB556 /* MDCSwipeOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F2F8B49A4A9A8E5B62838E960668A09 /* MDCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE0E4EA6EFC76BDA8CE5336C29DA61 /* MDCGeometry.m */; };
-		4854621688088C972FE3890C7096ED61 /* MDCSwipeToChooseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 18998D262C97818C761C6783B2BF1129 /* MDCSwipeToChooseDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F432355D96D42ECCE45B7FA541BB872 /* MDCSwipeDirection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AAE98F1F78813E65A6AC330ECD57BBB /* MDCSwipeDirection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		575EC55E7463D217BCEE0A070A1BF035 /* UIView+MDCBorderedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5FB12833C1330789C0BD69736FD6D1 /* UIView+MDCBorderedLabel.m */; };
-		61C8439D181ACE13EEE89256CADB2D9A /* MDCGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D33056BFA1C48A43293A949B1F4D122 /* MDCGeometry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		63C2BF0AA4F412BE679238C81D2C7CD5 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8548134FA9E78895B36CA38ACFBCB4 /* SVIndefiniteAnimatedView.m */; };
-		721FB692C1A752FCC991651EF8EDC70F /* UIView+MDCSwipeToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 2904E766FC038F043BB3A39B29CEA1E1 /* UIView+MDCSwipeToChoose.m */; };
-		78FD6C7599436E1FB6817DE182C13780 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1CCF31DEB29F209EBF7130BADD87B8 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8017C373F1BF5C22A3198A57AD7C95E1 /* UIColor+MDCRGB8Bit.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A66968D8AB2548E51988CEAD19A8D8 /* UIColor+MDCRGB8Bit.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		876D48BA1E757C861E3E5437585C9C3C /* MDCPanState.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A64F85C9A5AE5B3030C9FC6CFA05C44 /* MDCPanState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E6A8D95E9F5FACF801B96C1CD34043E /* UIView+MDCSwipeToChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = 038C8C6CFCD4AB1F3DD3D2CA887975D1 /* UIView+MDCSwipeToChoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FE53F9D50C8B9BD3CBA53C467327FD4 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB782A5099A3ADAC0C61F6AE080F482 /* SVProgressHUD-dummy.m */; };
-		9517587B57523B67C182C6173F34AF1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62BDFF3CB1110962314EC9F90308F1AD /* Foundation.framework */; };
-		9A2DF15FACB30ED6ACC8E783CD43209D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62BDFF3CB1110962314EC9F90308F1AD /* Foundation.framework */; };
-		9AEA067FADB71E0B9E448988CDE219C3 /* MDCViewState.h in Headers */ = {isa = PBXBuildFile; fileRef = 21DF855B89C6DF5B0032CDA2B7BF951B /* MDCViewState.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9EF452E584CC830937EC142204F1317A /* MDCSwipeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CFA67982AC5827A6D9764ACAF747AF0 /* MDCSwipeResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6A80FCD40A186174DC61DACD9BCA033 /* MDCSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2305AF6EDFF19CD0D7DC0F3C960469CC /* MDCSwipeOptions.m */; };
-		ACD26EF67C8D36E42248A03AD4B95C57 /* MDCSwipeToChooseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD9C96354E1F2AC760247C92F4B88F1 /* MDCSwipeToChooseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C01FFDC67C0F24086F33760444696B50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F44DC8FB679B62DEDDD672C20E1050C /* UIKit.framework */; };
-		C908B82AE3A1E86B3DF2286647A34865 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4450390DD7C011D13A4A1A256DFF6E /* SVProgressHUD.m */; };
-		CA8E59DC7F79C25C5FB8D6E69A4E4855 /* MDCSwipeToChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = 602C4EB1E8BA0FE285349E17F8690DC7 /* MDCSwipeToChoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFD3E6FF5378BEF3009CE8ABB91367A3 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = E57F2D6E74DEE17313401A49850C0003 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC57528BD4DD12A15A44A8B6D088471B /* MDCSwipeToChooseViewOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 001BF9C4B2331801DE233A380092845B /* MDCSwipeToChooseViewOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE694D11B941BD4DB04A078F0C6B3825 /* UIColor+MDCRGB8Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C200D0DF69F9719EA32439B47CD5A /* UIColor+MDCRGB8Bit.m */; };
-		E02133C8F33041532D8BE03B39702D85 /* MDCViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F150C358391509C4FED8160E045BDDB /* MDCViewState.m */; };
-		EB253337F3CF45F98483AB549C8DB27C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62BDFF3CB1110962314EC9F90308F1AD /* Foundation.framework */; };
-		F31D8DE4444F3E2F24AADF8A6BE773AF /* MDCPanState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F5D7647CB7CFEF85BF97D5E431884 /* MDCPanState.m */; };
-		FBDB86A3074BC85C792256CBF707EB90 /* MDCSwipeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 643602E6B0E38B8A74D479CA3812237F /* MDCSwipeResult.m */; };
-		FF339FCA0B7D0FF5D272607D01702524 /* MDCSwipeToChooseViewOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A63B0744E81EB2DAC5E5B5B40386203 /* MDCSwipeToChooseViewOptions.m */; };
+		03668158C144CF10D835050767EE0AB9 /* MDCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C765E7BBCFEC1D0237193FE067E6918 /* MDCGeometry.m */; };
+		0496C9F69348AC0E9509DFA3A2B53001 /* MDCSwipeToChooseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 244F3FCC83F315D1D2FF997AA5579FC1 /* MDCSwipeToChooseDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1200B692768060A1621081D3B19D4C4C /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE095D0848F2F92A341F1BDE62268E35 /* SVIndefiniteAnimatedView.m */; };
+		14E1309CA445F506D796D452F55DB798 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBB35024FA79DA6F124BDB4F49104B5 /* UIKit.framework */; };
+		1A5125D00EB4A74C7948BCE425DCC025 /* MDCPanState.m in Sources */ = {isa = PBXBuildFile; fileRef = F520C1B056AD34903E4030EF2333347F /* MDCPanState.m */; };
+		217EAE512A2E6896243DB4AF4AD6A8B4 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 805EAFF44CE6413BDCC78971685E7CF9 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23FEB7D551FD2BCD6AB6CA3CA3F77FD9 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B459160F962A822A41DD2BBD91603E4C /* SVProgressHUD-dummy.m */; };
+		24D3676833CD02252CE1396765A81131 /* MDCViewState.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A5A115E82EE53D3EB0BAE3A820E495 /* MDCViewState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28403B28129CA119303C15E3891323BC /* UIView+MDCSwipeToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = EDADA1442EDDF56494DC9C3AA637F6BA /* UIView+MDCSwipeToChoose.m */; };
+		2B9CC5753ACB501D7D1DEA8F0801D6E0 /* UIColor+MDCRGB8Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = AD52DCCBD49A8E2FCCDA32A66F000AF5 /* UIColor+MDCRGB8Bit.m */; };
+		2F7F6C8C61230475671C22C23538134F /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBD646E4DB84370EA3D1302D1939DD /* Alamofire-dummy.m */; };
+		3DFC3CD655588194DAD41D6375520FFA /* MDCSwipeDirection.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC09512B2F2B408C7168F83D3FEB125 /* MDCSwipeDirection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44952E0D9F8A4F21B8CC40BD8BE26F2F /* MDCSwipeToChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA80F0571244A041274CC97A5E92DDC /* MDCSwipeToChoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B2397BA983663D6404AD7071DDADC45 /* MDCSwipeToChoose-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3988CA1167B13BADF97D112314884 /* MDCSwipeToChoose-dummy.m */; };
+		513534CE96277142A081E51F14250F8F /* MDCSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 064F439006BD187BF3D41690C31E2C73 /* MDCSwipeOptions.m */; };
+		5945A90E78B7488DC674C975CB494E43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192A063B190D8B59EBBAAADB0F06958 /* Foundation.framework */; };
+		660586C3D4E9E1CF4B34EDC89557E78E /* MDCSwipeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = F71FA4D7C0351F2FA53213A142FB14A8 /* MDCSwipeResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71A254F9025A966AA51F94210E8A9866 /* MDCSwipeToChooseViewOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = C52DB828043B1C328F9795F0D002B156 /* MDCSwipeToChooseViewOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		778D5F65C69A9F2F2F71DB529EE6A526 /* MDCPanState.h in Headers */ = {isa = PBXBuildFile; fileRef = 97290C98EE03F3D1E4DAAC26D847CABE /* MDCPanState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CDCA3BB0DC33FD83F3F58F3AC0DB541 /* MDCSwipeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D6C4C05F5B41FC517F02421EC4204 /* MDCSwipeResult.m */; };
+		8176C61CF6AA4AD29FC4B9A2A065511D /* MDCSwipeToChooseViewOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC008F7CD382A8BB58119D992355EA0 /* MDCSwipeToChooseViewOptions.m */; };
+		823C77E4E0613FB9672598942F6596F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192A063B190D8B59EBBAAADB0F06958 /* Foundation.framework */; };
+		86674951418319D6D1B79B50F885127F /* UIView+MDCBorderedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 966957A99D6C4E3C17EE5BD95E4BD05F /* UIView+MDCBorderedLabel.m */; };
+		8D9BA3BF898EFE1AAD2D05B8A00A3D05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC4DF126AFC8023EB71C8C7D27824B2 /* QuartzCore.framework */; };
+		8DC698ACB2AAB29F87F3CAB351D5336B /* MDCSwipeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AB35D2B1263EA87E3E4870FD3952C9 /* MDCSwipeOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91A22F2699B8C456B02130FC9C713E66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192A063B190D8B59EBBAAADB0F06958 /* Foundation.framework */; };
+		9939B174CE0C50E3A9956C0106BB558F /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2AEE7780C6811653E0172DA4E5B05 /* Alamofire.swift */; };
+		A451F859B518C85B8EEDFC382B514691 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D952EC287BAFA7B2CBFC51B22B6819D7 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A92A9394D0888E6E9B1EA24D0AF03A55 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D62CE7AD5E23ADB6CF004D5538ECF60 /* SVProgressHUD.bundle */; };
+		B16C819522D39C44D6D6F2F494C09F39 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 499EB249961866B469D7F60A7DD4663B /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B20B61E9FB9DF6F7284F583B5C55F817 /* MDCGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 019D106FB250E287F50EA1F26737A253 /* MDCGeometry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3BED0B80F6557A1048D7E2E78AF4192 /* MDCSwipeToChooseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 37753F1CE6E9DBF43CF6C436E23F1F32 /* MDCSwipeToChooseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B461B4DF15868AA8ACB2DDF774E2D657 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192A063B190D8B59EBBAAADB0F06958 /* Foundation.framework */; };
+		B78139072D2C072C32B4BC027859C5A3 /* MDCSwipeToChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 931372ED48A212E6B019A40992567145 /* MDCSwipeToChooseView.m */; };
+		C452688B267BE8ECCE28E59582670078 /* MDCViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D9F070C19FB2F727CDCB840DC3D28 /* MDCViewState.m */; };
+		CD0BB684FFAF81D2CA30D53398595ED0 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F866C191066311D1D26AE946242023FF /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE0D69B5BBD3F9554BF6814433C0A951 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DD7E96F75540C95CBB5CE6E6E156F3 /* Pods-dummy.m */; };
+		D2C83591B11A0BECC6509AE1507C7852 /* UIView+MDCBorderedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A469AACB170071E7032FACA7AEC995 /* UIView+MDCBorderedLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE96EB792A5359B3D63760AEF9900F9A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 104057461150EF048FA055DE924EC6A3 /* SVProgressHUD.m */; };
+		F40472CCD942305ADCC4F3F71AC1812F /* UIView+MDCSwipeToChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = DE9C72A351194BF8C91FA3513712E4F1 /* UIView+MDCSwipeToChoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86C4EF01E090C35365A5B48DE88B5B5 /* MDCSwipeToChoose-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A46CB1AEFD185EFBFCCFC7171E91C52F /* MDCSwipeToChoose-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F933FD8BEA109CABAF016AD211D7BBA3 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6215BD5E2FA565F0FA3AF62C26182D90 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9753FB2730B6CAF369D8AD910C7D266 /* UIColor+MDCRGB8Bit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1D4ECE3431209B2FB7EF2AE8E675EF /* UIColor+MDCRGB8Bit.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		70737B980B9C1EAD1798060B3216616B /* PBXContainerItemProxy */ = {
+		1B41B95CE9B0E62B838E7D67A4216BDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 713C5AEB045778166C276091539DE855;
+			remoteGlobalIDString = 498D8AEB4E68991EAD49AC3AC529D8B2;
 			remoteInfo = MDCSwipeToChoose;
 		};
-		B44D6C00A2E35E4AD801FF2C762C4084 /* PBXContainerItemProxy */ = {
+		AC59F41E7F27F76BF00CFB380F530E6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7C29D722ECAFAE07795CEDF114BFD089;
+			remoteGlobalIDString = 33C249B4253C2ABD3434020B420F8ABD;
+			remoteInfo = Alamofire;
+		};
+		D59A5C0CE704D56AD6BFF785B69D4834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6500B93F663B406263A01BA6E41350;
 			remoteInfo = SVProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		001BF9C4B2331801DE233A380092845B /* MDCSwipeToChooseViewOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseViewOptions.h; path = MDCSwipeToChoose/Public/Options/MDCSwipeToChooseViewOptions.h; sourceTree = "<group>"; };
-		038C8C6CFCD4AB1F3DD3D2CA887975D1 /* UIView+MDCSwipeToChoose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCSwipeToChoose.h"; path = "MDCSwipeToChoose/Public/Views/UIView+MDCSwipeToChoose.h"; sourceTree = "<group>"; };
-		0A63B0744E81EB2DAC5E5B5B40386203 /* MDCSwipeToChooseViewOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeToChooseViewOptions.m; path = MDCSwipeToChoose/Public/Options/MDCSwipeToChooseViewOptions.m; sourceTree = "<group>"; };
-		0CB782A5099A3ADAC0C61F6AE080F482 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		17AC30B9821BD0A44556782BE47CD738 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		18998D262C97818C761C6783B2BF1129 /* MDCSwipeToChooseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseDelegate.h; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseDelegate.h; sourceTree = "<group>"; };
-		19445D36D3A9189D466F89E43640A27B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		1A64F85C9A5AE5B3030C9FC6CFA05C44 /* MDCPanState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPanState.h; path = MDCSwipeToChoose/Public/State/MDCPanState.h; sourceTree = "<group>"; };
-		1D2BA92D360F3EFA597873816E4DB556 /* MDCSwipeOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeOptions.h; path = MDCSwipeToChoose/Public/Options/MDCSwipeOptions.h; sourceTree = "<group>"; };
-		1D3C200D0DF69F9719EA32439B47CD5A /* UIColor+MDCRGB8Bit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MDCRGB8Bit.m"; path = "MDCSwipeToChoose/Internal/UIColor+MDCRGB8Bit.m"; sourceTree = "<group>"; };
-		1F44DC8FB679B62DEDDD672C20E1050C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		21DF855B89C6DF5B0032CDA2B7BF951B /* MDCViewState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCViewState.h; path = MDCSwipeToChoose/Internal/State/MDCViewState.h; sourceTree = "<group>"; };
-		2305AF6EDFF19CD0D7DC0F3C960469CC /* MDCSwipeOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeOptions.m; path = MDCSwipeToChoose/Public/Options/MDCSwipeOptions.m; sourceTree = "<group>"; };
-		2508014D217C22D323BD0FD6D06519A2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2904E766FC038F043BB3A39B29CEA1E1 /* UIView+MDCSwipeToChoose.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDCSwipeToChoose.m"; path = "MDCSwipeToChoose/Public/Views/UIView+MDCSwipeToChoose.m"; sourceTree = "<group>"; };
-		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3CFA67982AC5827A6D9764ACAF747AF0 /* MDCSwipeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeResult.h; path = MDCSwipeToChoose/Public/State/MDCSwipeResult.h; sourceTree = "<group>"; };
-		454E8FA93DAE9C736D62D6ED471A486C /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A3F5D7647CB7CFEF85BF97D5E431884 /* MDCPanState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPanState.m; path = MDCSwipeToChoose/Public/State/MDCPanState.m; sourceTree = "<group>"; };
-		4DDE0E4EA6EFC76BDA8CE5336C29DA61 /* MDCGeometry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCGeometry.m; path = MDCSwipeToChoose/Internal/MDCGeometry.m; sourceTree = "<group>"; };
-		5AAE98F1F78813E65A6AC330ECD57BBB /* MDCSwipeDirection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeDirection.h; path = MDCSwipeToChoose/Public/State/MDCSwipeDirection.h; sourceTree = "<group>"; };
-		5BD9C96354E1F2AC760247C92F4B88F1 /* MDCSwipeToChooseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseView.h; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseView.h; sourceTree = "<group>"; };
-		5D33056BFA1C48A43293A949B1F4D122 /* MDCGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCGeometry.h; path = MDCSwipeToChoose/Internal/MDCGeometry.h; sourceTree = "<group>"; };
-		5DA940EE4ECDC66FE861D41327F8EA0D /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		5F5A88F318A95BB587B89CD21CBD4C37 /* libMDCSwipeToChoose.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMDCSwipeToChoose.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		602C4EB1E8BA0FE285349E17F8690DC7 /* MDCSwipeToChoose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChoose.h; path = MDCSwipeToChoose/Public/MDCSwipeToChoose.h; sourceTree = "<group>"; };
-		61BB0C0617566E4AB31AD112976470CA /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		62BDFF3CB1110962314EC9F90308F1AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		643602E6B0E38B8A74D479CA3812237F /* MDCSwipeResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeResult.m; path = MDCSwipeToChoose/Public/State/MDCSwipeResult.m; sourceTree = "<group>"; };
-		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		85E58B0515A80399B476679FDD9FAA12 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		8AF306588C16ABD6D4C402D60C909328 /* MDCSwipeToChoose.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDCSwipeToChoose.xcconfig; sourceTree = "<group>"; };
-		9F150C358391509C4FED8160E045BDDB /* MDCViewState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCViewState.m; path = MDCSwipeToChoose/Internal/State/MDCViewState.m; sourceTree = "<group>"; };
-		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		A3410908B598E057C132F91D3C0B7851 /* MDCSwipeToChooseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeToChooseView.m; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseView.m; sourceTree = "<group>"; };
-		B06554D5FD77907032085540DB207F00 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		019D106FB250E287F50EA1F26737A253 /* MDCGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCGeometry.h; path = MDCSwipeToChoose/Internal/MDCGeometry.h; sourceTree = "<group>"; };
+		041D9F070C19FB2F727CDCB840DC3D28 /* MDCViewState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCViewState.m; path = MDCSwipeToChoose/Internal/State/MDCViewState.m; sourceTree = "<group>"; };
+		064F439006BD187BF3D41690C31E2C73 /* MDCSwipeOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeOptions.m; path = MDCSwipeToChoose/Public/Options/MDCSwipeOptions.m; sourceTree = "<group>"; };
+		0C765E7BBCFEC1D0237193FE067E6918 /* MDCGeometry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCGeometry.m; path = MDCSwipeToChoose/Internal/MDCGeometry.m; sourceTree = "<group>"; };
+		0E1D4ECE3431209B2FB7EF2AE8E675EF /* UIColor+MDCRGB8Bit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MDCRGB8Bit.h"; path = "MDCSwipeToChoose/Internal/UIColor+MDCRGB8Bit.h"; sourceTree = "<group>"; };
+		104057461150EF048FA055DE924EC6A3 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		104D6C4C05F5B41FC517F02421EC4204 /* MDCSwipeResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeResult.m; path = MDCSwipeToChoose/Public/State/MDCSwipeResult.m; sourceTree = "<group>"; };
+		156F812DEA20C8DA63CA82A947F14D85 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		1D62CE7AD5E23ADB6CF004D5538ECF60 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		20DD7E96F75540C95CBB5CE6E6E156F3 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		244F3FCC83F315D1D2FF997AA5579FC1 /* MDCSwipeToChooseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseDelegate.h; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseDelegate.h; sourceTree = "<group>"; };
+		28A5A115E82EE53D3EB0BAE3A820E495 /* MDCViewState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCViewState.h; path = MDCSwipeToChoose/Internal/State/MDCViewState.h; sourceTree = "<group>"; };
+		37753F1CE6E9DBF43CF6C436E23F1F32 /* MDCSwipeToChooseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseView.h; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseView.h; sourceTree = "<group>"; };
+		3BFBD646E4DB84370EA3D1302D1939DD /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		45560087CAF300C36256D93D29BB9519 /* MDCSwipeToChoose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDCSwipeToChoose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		499EB249961866B469D7F60A7DD4663B /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		4A4138932034C57300E94EF81E04D55C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57E0D6E63B4B49B99791BA0649B2B4B7 /* MDCSwipeToChoose-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDCSwipeToChoose-prefix.pch"; sourceTree = "<group>"; };
+		5CA7F61C09E408E08B7ACC82621BBC77 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		5E4E94DAB7D5E3201FCF6C3607D11B03 /* MDCSwipeToChoose.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MDCSwipeToChoose.modulemap; sourceTree = "<group>"; };
+		6215BD5E2FA565F0FA3AF62C26182D90 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		6DA80F0571244A041274CC97A5E92DDC /* MDCSwipeToChoose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChoose.h; path = MDCSwipeToChoose/Public/MDCSwipeToChoose.h; sourceTree = "<group>"; };
+		6FB3988CA1167B13BADF97D112314884 /* MDCSwipeToChoose-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDCSwipeToChoose-dummy.m"; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		805EAFF44CE6413BDCC78971685E7CF9 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CC4DF126AFC8023EB71C8C7D27824B2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		9192A063B190D8B59EBBAAADB0F06958 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		92DBBDC95DE361DE224FBD2383302CF8 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		931372ED48A212E6B019A40992567145 /* MDCSwipeToChooseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeToChooseView.m; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseView.m; sourceTree = "<group>"; };
+		961C643984E4F3D4FD17CB4CDE097DD1 /* MDCSwipeToChoose.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDCSwipeToChoose.xcconfig; sourceTree = "<group>"; };
+		966957A99D6C4E3C17EE5BD95E4BD05F /* UIView+MDCBorderedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDCBorderedLabel.m"; path = "MDCSwipeToChoose/Internal/Views/UIView+MDCBorderedLabel.m"; sourceTree = "<group>"; };
+		97290C98EE03F3D1E4DAAC26D847CABE /* MDCPanState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPanState.h; path = MDCSwipeToChoose/Public/State/MDCPanState.h; sourceTree = "<group>"; };
+		9CF30F87F2A997FA38291574D736A20F /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		A030ED66D690992843FC80C0919D0BDB /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		A46CB1AEFD185EFBFCCFC7171E91C52F /* MDCSwipeToChoose-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDCSwipeToChoose-umbrella.h"; sourceTree = "<group>"; };
+		AD52DCCBD49A8E2FCCDA32A66F000AF5 /* UIColor+MDCRGB8Bit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MDCRGB8Bit.m"; path = "MDCSwipeToChoose/Internal/UIColor+MDCRGB8Bit.m"; sourceTree = "<group>"; };
+		B12788D213D31363B76E00E408BAAA61 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B459160F962A822A41DD2BBD91603E4C /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C2EF438DC46BA53BDB3962B0B98A59CC /* UIView+MDCBorderedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCBorderedLabel.h"; path = "MDCSwipeToChoose/Internal/Views/UIView+MDCBorderedLabel.h"; sourceTree = "<group>"; };
-		C4A7BD37807A3AF201BAF18FE580894B /* MDCSwipeToChoose-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDCSwipeToChoose-dummy.m"; sourceTree = "<group>"; };
-		C9A66968D8AB2548E51988CEAD19A8D8 /* UIColor+MDCRGB8Bit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MDCRGB8Bit.h"; path = "MDCSwipeToChoose/Internal/UIColor+MDCRGB8Bit.h"; sourceTree = "<group>"; };
-		CA1CCF31DEB29F209EBF7130BADD87B8 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		D831C7BEB45536014B39161065812475 /* MDCSwipeToChoose-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDCSwipeToChoose-prefix.pch"; sourceTree = "<group>"; };
-		DA4450390DD7C011D13A4A1A256DFF6E /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		DE5FB12833C1330789C0BD69736FD6D1 /* UIView+MDCBorderedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDCBorderedLabel.m"; path = "MDCSwipeToChoose/Internal/Views/UIView+MDCBorderedLabel.m"; sourceTree = "<group>"; };
-		E57F2D6E74DEE17313401A49850C0003 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		EA8548134FA9E78895B36CA38ACFBCB4 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		F7034008D4C0CDD884630B598B87C324 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		BB1AB4C713DFAC799713741218B54D44 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		C52DB828043B1C328F9795F0D002B156 /* MDCSwipeToChooseViewOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseViewOptions.h; path = MDCSwipeToChoose/Public/Options/MDCSwipeToChooseViewOptions.h; sourceTree = "<group>"; };
+		C5AB35D2B1263EA87E3E4870FD3952C9 /* MDCSwipeOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeOptions.h; path = MDCSwipeToChoose/Public/Options/MDCSwipeOptions.h; sourceTree = "<group>"; };
+		C7E196C25DB0F010AF9738446C320950 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		CAA008FC9C24AD444AB544E75531EE9A /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CE095D0848F2F92A341F1BDE62268E35 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D411D448DDAE644FFC175CAD3DB1A634 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5A469AACB170071E7032FACA7AEC995 /* UIView+MDCBorderedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCBorderedLabel.h"; path = "MDCSwipeToChoose/Internal/Views/UIView+MDCBorderedLabel.h"; sourceTree = "<group>"; };
+		D952EC287BAFA7B2CBFC51B22B6819D7 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		DE9C72A351194BF8C91FA3513712E4F1 /* UIView+MDCSwipeToChoose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCSwipeToChoose.h"; path = "MDCSwipeToChoose/Public/Views/UIView+MDCSwipeToChoose.h"; sourceTree = "<group>"; };
+		DEC008F7CD382A8BB58119D992355EA0 /* MDCSwipeToChooseViewOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeToChooseViewOptions.m; path = MDCSwipeToChoose/Public/Options/MDCSwipeToChooseViewOptions.m; sourceTree = "<group>"; };
+		E33BBB3F0EC128142E93C044FB2ECD59 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC96D0CFFB78919DCA4AFB5359F03AC7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDADA1442EDDF56494DC9C3AA637F6BA /* UIView+MDCSwipeToChoose.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDCSwipeToChoose.m"; path = "MDCSwipeToChoose/Public/Views/UIView+MDCSwipeToChoose.m"; sourceTree = "<group>"; };
+		EEE2AEE7780C6811653E0172DA4E5B05 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		F1B11A6BF890EA34CE7A232D2CC81C5A /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F520C1B056AD34903E4030EF2333347F /* MDCPanState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPanState.m; path = MDCSwipeToChoose/Public/State/MDCPanState.m; sourceTree = "<group>"; };
+		F71FA4D7C0351F2FA53213A142FB14A8 /* MDCSwipeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeResult.h; path = MDCSwipeToChoose/Public/State/MDCSwipeResult.h; sourceTree = "<group>"; };
+		F866C191066311D1D26AE946242023FF /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		FBC09512B2F2B408C7168F83D3FEB125 /* MDCSwipeDirection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeDirection.h; path = MDCSwipeToChoose/Public/State/MDCSwipeDirection.h; sourceTree = "<group>"; };
+		FEBB35024FA79DA6F124BDB4F49104B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13D55CECF7E35FD6D13E4F8ED7641A87 /* Frameworks */ = {
+		61B0566D2F6B25B07E8D3056D5EC4213 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9517587B57523B67C182C6173F34AF1B /* Foundation.framework in Frameworks */,
-				C01FFDC67C0F24086F33760444696B50 /* UIKit.framework in Frameworks */,
+				5945A90E78B7488DC674C975CB494E43 /* Foundation.framework in Frameworks */,
+				14E1309CA445F506D796D452F55DB798 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A796A36CC87564F58FE45F1CE966D20 /* Frameworks */ = {
+		841E52FA02A62505E8B30328CC48DC0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A2DF15FACB30ED6ACC8E783CD43209D /* Foundation.framework in Frameworks */,
-				19351A199ACD6BA914855099A00AD4EE /* QuartzCore.framework in Frameworks */,
+				B461B4DF15868AA8ACB2DDF774E2D657 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		473C17B9EC00029B036E375108AE51EB /* Frameworks */ = {
+		A7DAFFABCFCB5F05BCFBC99D4CD00379 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB253337F3CF45F98483AB549C8DB27C /* Foundation.framework in Frameworks */,
+				823C77E4E0613FB9672598942F6596F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20327F21E4D8746773963337F16616F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A22F2699B8C456B02130FC9C713E66 /* Foundation.framework in Frameworks */,
+				8D9BA3BF898EFE1AAD2D05B8A00A3D05 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,59 +190,81 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		29855D10AC90A17AA0F578C249F5F025 /* SVProgressHUD */ = {
+		140314AA9655465ED83D5CABCDA63A0A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E57F2D6E74DEE17313401A49850C0003 /* SVIndefiniteAnimatedView.h */,
-				EA8548134FA9E78895B36CA38ACFBCB4 /* SVIndefiniteAnimatedView.m */,
-				CA1CCF31DEB29F209EBF7130BADD87B8 /* SVProgressHUD.h */,
-				DA4450390DD7C011D13A4A1A256DFF6E /* SVProgressHUD.m */,
-				FB79FB216B3C9B488C08A23517F81BB4 /* Resources */,
-				6ABFE80BF18D69BEFBD6932D6D86523B /* Support Files */,
-			);
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		30405AB75E8DA4AE450AE3E229D56457 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8AF306588C16ABD6D4C402D60C909328 /* MDCSwipeToChoose.xcconfig */,
-				C4A7BD37807A3AF201BAF18FE580894B /* MDCSwipeToChoose-dummy.m */,
-				D831C7BEB45536014B39161065812475 /* MDCSwipeToChoose-prefix.pch */,
+				4A4138932034C57300E94EF81E04D55C /* Info.plist */,
+				5E4E94DAB7D5E3201FCF6C3607D11B03 /* MDCSwipeToChoose.modulemap */,
+				961C643984E4F3D4FD17CB4CDE097DD1 /* MDCSwipeToChoose.xcconfig */,
+				6FB3988CA1167B13BADF97D112314884 /* MDCSwipeToChoose-dummy.m */,
+				57E0D6E63B4B49B99791BA0649B2B4B7 /* MDCSwipeToChoose-prefix.pch */,
+				A46CB1AEFD185EFBFCCFC7171E91C52F /* MDCSwipeToChoose-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MDCSwipeToChoose";
 			sourceTree = "<group>";
 		};
-		64F024328420545A9A70B81EC0160AA9 /* iOS */ = {
+		30CA7B22E10DFEF8DB1A6887079A639D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				62BDFF3CB1110962314EC9F90308F1AD /* Foundation.framework */,
-				17AC30B9821BD0A44556782BE47CD738 /* QuartzCore.framework */,
-				1F44DC8FB679B62DEDDD672C20E1050C /* UIKit.framework */,
+				5CA7F61C09E408E08B7ACC82621BBC77 /* Alamofire.modulemap */,
+				C7E196C25DB0F010AF9738446C320950 /* Alamofire.xcconfig */,
+				3BFBD646E4DB84370EA3D1302D1939DD /* Alamofire-dummy.m */,
+				BB1AB4C713DFAC799713741218B54D44 /* Alamofire-prefix.pch */,
+				6215BD5E2FA565F0FA3AF62C26182D90 /* Alamofire-umbrella.h */,
+				D411D448DDAE644FFC175CAD3DB1A634 /* Info.plist */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		69AF4D297F7AAD010B44836A16DB5381 /* Products */ = {
+		5A73A25BD7D8206295BE1D76E7DFA259 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F5A88F318A95BB587B89CD21CBD4C37 /* libMDCSwipeToChoose.a */,
-				2508014D217C22D323BD0FD6D06519A2 /* libPods.a */,
-				454E8FA93DAE9C736D62D6ED471A486C /* libSVProgressHUD.a */,
+				CAA008FC9C24AD444AB544E75531EE9A /* Alamofire.framework */,
+				45560087CAF300C36256D93D29BB9519 /* MDCSwipeToChoose.framework */,
+				B12788D213D31363B76E00E408BAAA61 /* Pods.framework */,
+				F1B11A6BF890EA34CE7A232D2CC81C5A /* SVProgressHUD.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6ABFE80BF18D69BEFBD6932D6D86523B /* Support Files */ = {
+		5B251DA98EB41AAD80268B5F3DE234CB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B06554D5FD77907032085540DB207F00 /* SVProgressHUD.xcconfig */,
-				0CB782A5099A3ADAC0C61F6AE080F482 /* SVProgressHUD-dummy.m */,
-				61BB0C0617566E4AB31AD112976470CA /* SVProgressHUD-prefix.pch */,
+				E6CFFAAFD6F834780BDC4CD6F1B93235 /* Alamofire */,
+				85F48F21F41F9544D197EF358071E1C6 /* MDCSwipeToChoose */,
+				B4025B4092A85DC6592A511529DAA170 /* SVProgressHUD */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		64F024328420545A9A70B81EC0160AA9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9192A063B190D8B59EBBAAADB0F06958 /* Foundation.framework */,
+				8CC4DF126AFC8023EB71C8C7D27824B2 /* QuartzCore.framework */,
+				FEBB35024FA79DA6F124BDB4F49104B5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				20DD7E96F75540C95CBB5CE6E6E156F3 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				F866C191066311D1D26AE946242023FF /* Pods-umbrella.h */,
+				156F812DEA20C8DA63CA82A947F14D85 /* Pods.debug.xcconfig */,
+				E33BBB3F0EC128142E93C044FB2ECD59 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -218,71 +272,91 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				D7293A17000A4646161BFB05DE95B5E7 /* Pods */,
-				69AF4D297F7AAD010B44836A16DB5381 /* Products */,
-				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+				5B251DA98EB41AAD80268B5F3DE234CB /* Pods */,
+				5A73A25BD7D8206295BE1D76E7DFA259 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+		85F48F21F41F9544D197EF358071E1C6 /* MDCSwipeToChoose */ = {
 			isa = PBXGroup;
 			children = (
-				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
-				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
-				5DA940EE4ECDC66FE861D41327F8EA0D /* Pods-dummy.m */,
-				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
-				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
-				19445D36D3A9189D466F89E43640A27B /* Pods.debug.xcconfig */,
-				F7034008D4C0CDD884630B598B87C324 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			path = "Target Support Files/Pods";
-			sourceTree = "<group>";
-		};
-		CBA597A5708346F7BC50D43ED20EBDDF /* MDCSwipeToChoose */ = {
-			isa = PBXGroup;
-			children = (
-				5D33056BFA1C48A43293A949B1F4D122 /* MDCGeometry.h */,
-				4DDE0E4EA6EFC76BDA8CE5336C29DA61 /* MDCGeometry.m */,
-				1A64F85C9A5AE5B3030C9FC6CFA05C44 /* MDCPanState.h */,
-				4A3F5D7647CB7CFEF85BF97D5E431884 /* MDCPanState.m */,
-				5AAE98F1F78813E65A6AC330ECD57BBB /* MDCSwipeDirection.h */,
-				1D2BA92D360F3EFA597873816E4DB556 /* MDCSwipeOptions.h */,
-				2305AF6EDFF19CD0D7DC0F3C960469CC /* MDCSwipeOptions.m */,
-				3CFA67982AC5827A6D9764ACAF747AF0 /* MDCSwipeResult.h */,
-				643602E6B0E38B8A74D479CA3812237F /* MDCSwipeResult.m */,
-				602C4EB1E8BA0FE285349E17F8690DC7 /* MDCSwipeToChoose.h */,
-				18998D262C97818C761C6783B2BF1129 /* MDCSwipeToChooseDelegate.h */,
-				5BD9C96354E1F2AC760247C92F4B88F1 /* MDCSwipeToChooseView.h */,
-				A3410908B598E057C132F91D3C0B7851 /* MDCSwipeToChooseView.m */,
-				001BF9C4B2331801DE233A380092845B /* MDCSwipeToChooseViewOptions.h */,
-				0A63B0744E81EB2DAC5E5B5B40386203 /* MDCSwipeToChooseViewOptions.m */,
-				21DF855B89C6DF5B0032CDA2B7BF951B /* MDCViewState.h */,
-				9F150C358391509C4FED8160E045BDDB /* MDCViewState.m */,
-				C9A66968D8AB2548E51988CEAD19A8D8 /* UIColor+MDCRGB8Bit.h */,
-				1D3C200D0DF69F9719EA32439B47CD5A /* UIColor+MDCRGB8Bit.m */,
-				C2EF438DC46BA53BDB3962B0B98A59CC /* UIView+MDCBorderedLabel.h */,
-				DE5FB12833C1330789C0BD69736FD6D1 /* UIView+MDCBorderedLabel.m */,
-				038C8C6CFCD4AB1F3DD3D2CA887975D1 /* UIView+MDCSwipeToChoose.h */,
-				2904E766FC038F043BB3A39B29CEA1E1 /* UIView+MDCSwipeToChoose.m */,
-				30405AB75E8DA4AE450AE3E229D56457 /* Support Files */,
+				019D106FB250E287F50EA1F26737A253 /* MDCGeometry.h */,
+				0C765E7BBCFEC1D0237193FE067E6918 /* MDCGeometry.m */,
+				97290C98EE03F3D1E4DAAC26D847CABE /* MDCPanState.h */,
+				F520C1B056AD34903E4030EF2333347F /* MDCPanState.m */,
+				FBC09512B2F2B408C7168F83D3FEB125 /* MDCSwipeDirection.h */,
+				C5AB35D2B1263EA87E3E4870FD3952C9 /* MDCSwipeOptions.h */,
+				064F439006BD187BF3D41690C31E2C73 /* MDCSwipeOptions.m */,
+				F71FA4D7C0351F2FA53213A142FB14A8 /* MDCSwipeResult.h */,
+				104D6C4C05F5B41FC517F02421EC4204 /* MDCSwipeResult.m */,
+				6DA80F0571244A041274CC97A5E92DDC /* MDCSwipeToChoose.h */,
+				244F3FCC83F315D1D2FF997AA5579FC1 /* MDCSwipeToChooseDelegate.h */,
+				37753F1CE6E9DBF43CF6C436E23F1F32 /* MDCSwipeToChooseView.h */,
+				931372ED48A212E6B019A40992567145 /* MDCSwipeToChooseView.m */,
+				C52DB828043B1C328F9795F0D002B156 /* MDCSwipeToChooseViewOptions.h */,
+				DEC008F7CD382A8BB58119D992355EA0 /* MDCSwipeToChooseViewOptions.m */,
+				28A5A115E82EE53D3EB0BAE3A820E495 /* MDCViewState.h */,
+				041D9F070C19FB2F727CDCB840DC3D28 /* MDCViewState.m */,
+				0E1D4ECE3431209B2FB7EF2AE8E675EF /* UIColor+MDCRGB8Bit.h */,
+				AD52DCCBD49A8E2FCCDA32A66F000AF5 /* UIColor+MDCRGB8Bit.m */,
+				D5A469AACB170071E7032FACA7AEC995 /* UIView+MDCBorderedLabel.h */,
+				966957A99D6C4E3C17EE5BD95E4BD05F /* UIView+MDCBorderedLabel.m */,
+				DE9C72A351194BF8C91FA3513712E4F1 /* UIView+MDCSwipeToChoose.h */,
+				EDADA1442EDDF56494DC9C3AA637F6BA /* UIView+MDCSwipeToChoose.m */,
+				140314AA9655465ED83D5CABCDA63A0A /* Support Files */,
 			);
 			path = MDCSwipeToChoose;
 			sourceTree = "<group>";
 		};
-		D7293A17000A4646161BFB05DE95B5E7 /* Pods */ = {
+		B4025B4092A85DC6592A511529DAA170 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				CBA597A5708346F7BC50D43ED20EBDDF /* MDCSwipeToChoose */,
-				29855D10AC90A17AA0F578C249F5F025 /* SVProgressHUD */,
+				805EAFF44CE6413BDCC78971685E7CF9 /* SVIndefiniteAnimatedView.h */,
+				CE095D0848F2F92A341F1BDE62268E35 /* SVIndefiniteAnimatedView.m */,
+				499EB249961866B469D7F60A7DD4663B /* SVProgressHUD.h */,
+				104057461150EF048FA055DE924EC6A3 /* SVProgressHUD.m */,
+				ECF8A29BFC6912B58C8D590F3135DEE0 /* Resources */,
+				C4F565F971813F1071B5A488AEE7FE25 /* Support Files */,
 			);
-			name = Pods;
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
-		FB79FB216B3C9B488C08A23517F81BB4 /* Resources */ = {
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				85E58B0515A80399B476679FDD9FAA12 /* SVProgressHUD.bundle */,
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C4F565F971813F1071B5A488AEE7FE25 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC96D0CFFB78919DCA4AFB5359F03AC7 /* Info.plist */,
+				A030ED66D690992843FC80C0919D0BDB /* SVProgressHUD.modulemap */,
+				9CF30F87F2A997FA38291574D736A20F /* SVProgressHUD.xcconfig */,
+				B459160F962A822A41DD2BBD91603E4C /* SVProgressHUD-dummy.m */,
+				92DBBDC95DE361DE224FBD2383302CF8 /* SVProgressHUD-prefix.pch */,
+				D952EC287BAFA7B2CBFC51B22B6819D7 /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		E6CFFAAFD6F834780BDC4CD6F1B93235 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				EEE2AEE7780C6811653E0172DA4E5B05 /* Alamofire.swift */,
+				30CA7B22E10DFEF8DB1A6887079A639D /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		ECF8A29BFC6912B58C8D590F3135DEE0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D62CE7AD5E23ADB6CF004D5538ECF60 /* SVProgressHUD.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -290,45 +364,80 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2D55C388FE841E900D7F3EA29DC5BE14 /* Headers */ = {
+		1D5157326758D738CDDC78A8B0D3B9F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD3E6FF5378BEF3009CE8ABB91367A3 /* SVIndefiniteAnimatedView.h in Headers */,
-				78FD6C7599436E1FB6817DE182C13780 /* SVProgressHUD.h in Headers */,
+				F933FD8BEA109CABAF016AD211D7BBA3 /* Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F221306ED3AF6087193E4528B6EC0744 /* Headers */ = {
+		255C2A03DB76CE0FA483A4D8EDACB068 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61C8439D181ACE13EEE89256CADB2D9A /* MDCGeometry.h in Headers */,
-				876D48BA1E757C861E3E5437585C9C3C /* MDCPanState.h in Headers */,
-				4F432355D96D42ECCE45B7FA541BB872 /* MDCSwipeDirection.h in Headers */,
-				3B2B987A9D8806D244DCB8494CBD7300 /* MDCSwipeOptions.h in Headers */,
-				9EF452E584CC830937EC142204F1317A /* MDCSwipeResult.h in Headers */,
-				CA8E59DC7F79C25C5FB8D6E69A4E4855 /* MDCSwipeToChoose.h in Headers */,
-				4854621688088C972FE3890C7096ED61 /* MDCSwipeToChooseDelegate.h in Headers */,
-				ACD26EF67C8D36E42248A03AD4B95C57 /* MDCSwipeToChooseView.h in Headers */,
-				DC57528BD4DD12A15A44A8B6D088471B /* MDCSwipeToChooseViewOptions.h in Headers */,
-				9AEA067FADB71E0B9E448988CDE219C3 /* MDCViewState.h in Headers */,
-				8017C373F1BF5C22A3198A57AD7C95E1 /* UIColor+MDCRGB8Bit.h in Headers */,
-				1B90DF4F72D8C5E0755BB3066903231A /* UIView+MDCBorderedLabel.h in Headers */,
-				8E6A8D95E9F5FACF801B96C1CD34043E /* UIView+MDCSwipeToChoose.h in Headers */,
+				CD0BB684FFAF81D2CA30D53398595ED0 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDB0819F79836B14C2C73892E930031 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20B61E9FB9DF6F7284F583B5C55F817 /* MDCGeometry.h in Headers */,
+				778D5F65C69A9F2F2F71DB529EE6A526 /* MDCPanState.h in Headers */,
+				3DFC3CD655588194DAD41D6375520FFA /* MDCSwipeDirection.h in Headers */,
+				8DC698ACB2AAB29F87F3CAB351D5336B /* MDCSwipeOptions.h in Headers */,
+				660586C3D4E9E1CF4B34EDC89557E78E /* MDCSwipeResult.h in Headers */,
+				F86C4EF01E090C35365A5B48DE88B5B5 /* MDCSwipeToChoose-umbrella.h in Headers */,
+				44952E0D9F8A4F21B8CC40BD8BE26F2F /* MDCSwipeToChoose.h in Headers */,
+				0496C9F69348AC0E9509DFA3A2B53001 /* MDCSwipeToChooseDelegate.h in Headers */,
+				B3BED0B80F6557A1048D7E2E78AF4192 /* MDCSwipeToChooseView.h in Headers */,
+				71A254F9025A966AA51F94210E8A9866 /* MDCSwipeToChooseViewOptions.h in Headers */,
+				24D3676833CD02252CE1396765A81131 /* MDCViewState.h in Headers */,
+				F9753FB2730B6CAF369D8AD910C7D266 /* UIColor+MDCRGB8Bit.h in Headers */,
+				D2C83591B11A0BECC6509AE1507C7852 /* UIView+MDCBorderedLabel.h in Headers */,
+				F40472CCD942305ADCC4F3F71AC1812F /* UIView+MDCSwipeToChoose.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41DC020CC6CD9329F8AF0B7FCA62FF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217EAE512A2E6896243DB4AF4AD6A8B4 /* SVIndefiniteAnimatedView.h in Headers */,
+				A451F859B518C85B8EEDFC382B514691 /* SVProgressHUD-umbrella.h in Headers */,
+				B16C819522D39C44D6D6F2F494C09F39 /* SVProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		713C5AEB045778166C276091539DE855 /* MDCSwipeToChoose */ = {
+		33C249B4253C2ABD3434020B420F8ABD /* Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D2FFAC685D78A33FF9689926DD86552 /* Build configuration list for PBXNativeTarget "MDCSwipeToChoose" */;
+			buildConfigurationList = FE30C9667AEFBA5E282DFA471F99F755 /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				83F7082D0BFCCD3BADCD6FD4A0E86837 /* Sources */,
-				13D55CECF7E35FD6D13E4F8ED7641A87 /* Frameworks */,
-				F221306ED3AF6087193E4528B6EC0744 /* Headers */,
+				7DD6A81739F1C6C725B75F7C75F4D3EF /* Sources */,
+				841E52FA02A62505E8B30328CC48DC0A /* Frameworks */,
+				1D5157326758D738CDDC78A8B0D3B9F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = CAA008FC9C24AD444AB544E75531EE9A /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		498D8AEB4E68991EAD49AC3AC529D8B2 /* MDCSwipeToChoose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9288B01E027AFE2B46E43DDA088070 /* Build configuration list for PBXNativeTarget "MDCSwipeToChoose" */;
+			buildPhases = (
+				D0D31F54ED63C3544344F049492242C5 /* Sources */,
+				61B0566D2F6B25B07E8D3056D5EC4213 /* Frameworks */,
+				7DDB0819F79836B14C2C73892E930031 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -336,16 +445,17 @@
 			);
 			name = MDCSwipeToChoose;
 			productName = MDCSwipeToChoose;
-			productReference = 5F5A88F318A95BB587B89CD21CBD4C37 /* libMDCSwipeToChoose.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 45560087CAF300C36256D93D29BB9519 /* MDCSwipeToChoose.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		7C29D722ECAFAE07795CEDF114BFD089 /* SVProgressHUD */ = {
+		9B6500B93F663B406263A01BA6E41350 /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 982A115D913AF934BD9EBB5A88B8BB47 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildConfigurationList = 177754D568FD791429BA7EACD9AC8787 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				D83BBF8A9437B7D266DF59D79540D068 /* Sources */,
-				3A796A36CC87564F58FE45F1CE966D20 /* Frameworks */,
-				2D55C388FE841E900D7F3EA29DC5BE14 /* Headers */,
+				9639D67DA4B1907ACE0C6166EAF13D6C /* Sources */,
+				D20327F21E4D8746773963337F16616F /* Frameworks */,
+				E41DC020CC6CD9329F8AF0B7FCA62FF1 /* Headers */,
+				560BC9FD9DB8D633053D392FB1F0D862 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -353,26 +463,28 @@
 			);
 			name = SVProgressHUD;
 			productName = SVProgressHUD;
-			productReference = 454E8FA93DAE9C736D62D6ED471A486C /* libSVProgressHUD.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = F1B11A6BF890EA34CE7A232D2CC81C5A /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		8B166B29BF92377F784C68111CFBD9DE /* Pods */ = {
+		AF7A2FF7059C07A4BFC5F113FA1A3A33 /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C22C445B902E1A0E2EB2A9B99E7BC47E /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 90AA16503A309695FE4C8C1445277FD4 /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				B08ABB0BFC917D5683DFBF2E9D2B65C6 /* Sources */,
-				473C17B9EC00029B036E375108AE51EB /* Frameworks */,
+				41336F5C7B06D10AE342B79C3F9FE8F6 /* Sources */,
+				A7DAFFABCFCB5F05BCFBC99D4CD00379 /* Frameworks */,
+				255C2A03DB76CE0FA483A4D8EDACB068 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F6E520C479790C0C123BBDD63B63E4E8 /* PBXTargetDependency */,
-				FE3792D3A8932E35E44470DC86CFB9DD /* PBXTargetDependency */,
+				01295A00D30154D0CF48A4445AC14915 /* PBXTargetDependency */,
+				3FDBB8EC46BE889B9D450E78748D0B7A /* PBXTargetDependency */,
+				FE6229BC0CFAC315CBD98CB3B5398EF8 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = 2508014D217C22D323BD0FD6D06519A2 /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = B12788D213D31363B76E00E408BAAA61 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -391,149 +503,235 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 69AF4D297F7AAD010B44836A16DB5381 /* Products */;
+			productRefGroup = 5A73A25BD7D8206295BE1D76E7DFA259 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				713C5AEB045778166C276091539DE855 /* MDCSwipeToChoose */,
-				8B166B29BF92377F784C68111CFBD9DE /* Pods */,
-				7C29D722ECAFAE07795CEDF114BFD089 /* SVProgressHUD */,
+				33C249B4253C2ABD3434020B420F8ABD /* Alamofire */,
+				498D8AEB4E68991EAD49AC3AC529D8B2 /* MDCSwipeToChoose */,
+				AF7A2FF7059C07A4BFC5F113FA1A3A33 /* Pods */,
+				9B6500B93F663B406263A01BA6E41350 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		560BC9FD9DB8D633053D392FB1F0D862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92A9394D0888E6E9B1EA24D0AF03A55 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		83F7082D0BFCCD3BADCD6FD4A0E86837 /* Sources */ = {
+		41336F5C7B06D10AE342B79C3F9FE8F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F2F8B49A4A9A8E5B62838E960668A09 /* MDCGeometry.m in Sources */,
-				F31D8DE4444F3E2F24AADF8A6BE773AF /* MDCPanState.m in Sources */,
-				A6A80FCD40A186174DC61DACD9BCA033 /* MDCSwipeOptions.m in Sources */,
-				FBDB86A3074BC85C792256CBF707EB90 /* MDCSwipeResult.m in Sources */,
-				33B6B3408F4668B31F7B29AB5CDCCCDF /* MDCSwipeToChoose-dummy.m in Sources */,
-				13CEC2C6979AA84510BDBC6917A9E5B0 /* MDCSwipeToChooseView.m in Sources */,
-				FF339FCA0B7D0FF5D272607D01702524 /* MDCSwipeToChooseViewOptions.m in Sources */,
-				E02133C8F33041532D8BE03B39702D85 /* MDCViewState.m in Sources */,
-				DE694D11B941BD4DB04A078F0C6B3825 /* UIColor+MDCRGB8Bit.m in Sources */,
-				575EC55E7463D217BCEE0A070A1BF035 /* UIView+MDCBorderedLabel.m in Sources */,
-				721FB692C1A752FCC991651EF8EDC70F /* UIView+MDCSwipeToChoose.m in Sources */,
+				CE0D69B5BBD3F9554BF6814433C0A951 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B08ABB0BFC917D5683DFBF2E9D2B65C6 /* Sources */ = {
+		7DD6A81739F1C6C725B75F7C75F4D3EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FED90E3E0DF7DFF0F8BD1E934997A4E /* Pods-dummy.m in Sources */,
+				2F7F6C8C61230475671C22C23538134F /* Alamofire-dummy.m in Sources */,
+				9939B174CE0C50E3A9956C0106BB558F /* Alamofire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D83BBF8A9437B7D266DF59D79540D068 /* Sources */ = {
+		9639D67DA4B1907ACE0C6166EAF13D6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63C2BF0AA4F412BE679238C81D2C7CD5 /* SVIndefiniteAnimatedView.m in Sources */,
-				8FE53F9D50C8B9BD3CBA53C467327FD4 /* SVProgressHUD-dummy.m in Sources */,
-				C908B82AE3A1E86B3DF2286647A34865 /* SVProgressHUD.m in Sources */,
+				1200B692768060A1621081D3B19D4C4C /* SVIndefiniteAnimatedView.m in Sources */,
+				23FEB7D551FD2BCD6AB6CA3CA3F77FD9 /* SVProgressHUD-dummy.m in Sources */,
+				EE96EB792A5359B3D63760AEF9900F9A /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D31F54ED63C3544344F049492242C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03668158C144CF10D835050767EE0AB9 /* MDCGeometry.m in Sources */,
+				1A5125D00EB4A74C7948BCE425DCC025 /* MDCPanState.m in Sources */,
+				513534CE96277142A081E51F14250F8F /* MDCSwipeOptions.m in Sources */,
+				7CDCA3BB0DC33FD83F3F58F3AC0DB541 /* MDCSwipeResult.m in Sources */,
+				4B2397BA983663D6404AD7071DDADC45 /* MDCSwipeToChoose-dummy.m in Sources */,
+				B78139072D2C072C32B4BC027859C5A3 /* MDCSwipeToChooseView.m in Sources */,
+				8176C61CF6AA4AD29FC4B9A2A065511D /* MDCSwipeToChooseViewOptions.m in Sources */,
+				C452688B267BE8ECCE28E59582670078 /* MDCViewState.m in Sources */,
+				2B9CC5753ACB501D7D1DEA8F0801D6E0 /* UIColor+MDCRGB8Bit.m in Sources */,
+				86674951418319D6D1B79B50F885127F /* UIView+MDCBorderedLabel.m in Sources */,
+				28403B28129CA119303C15E3891323BC /* UIView+MDCSwipeToChoose.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F6E520C479790C0C123BBDD63B63E4E8 /* PBXTargetDependency */ = {
+		01295A00D30154D0CF48A4445AC14915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 33C249B4253C2ABD3434020B420F8ABD /* Alamofire */;
+			targetProxy = AC59F41E7F27F76BF00CFB380F530E6D /* PBXContainerItemProxy */;
+		};
+		3FDBB8EC46BE889B9D450E78748D0B7A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MDCSwipeToChoose;
-			target = 713C5AEB045778166C276091539DE855 /* MDCSwipeToChoose */;
-			targetProxy = 70737B980B9C1EAD1798060B3216616B /* PBXContainerItemProxy */;
+			target = 498D8AEB4E68991EAD49AC3AC529D8B2 /* MDCSwipeToChoose */;
+			targetProxy = 1B41B95CE9B0E62B838E7D67A4216BDD /* PBXContainerItemProxy */;
 		};
-		FE3792D3A8932E35E44470DC86CFB9DD /* PBXTargetDependency */ = {
+		FE6229BC0CFAC315CBD98CB3B5398EF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
-			target = 7C29D722ECAFAE07795CEDF114BFD089 /* SVProgressHUD */;
-			targetProxy = B44D6C00A2E35E4AD801FF2C762C4084 /* PBXContainerItemProxy */;
+			target = 9B6500B93F663B406263A01BA6E41350 /* SVProgressHUD */;
+			targetProxy = D59A5C0CE704D56AD6BFF785B69D4834 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5178D4D42E06BB774103124A5E0DEB4A /* Release */ = {
+		0CD3166FF568EDBA1F0020DA2530E83B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B06554D5FD77907032085540DB207F00 /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = 961C643984E4F3D4FD17CB4CDE097DD1 /* MDCSwipeToChoose.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		6A8C955C5B507903BB16E07D32BCA3B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AF306588C16ABD6D4C402D60C909328 /* MDCSwipeToChoose.xcconfig */;
-			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.2.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.2.3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/MDCSwipeToChoose/MDCSwipeToChoose-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDCSwipeToChoose/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MDCSwipeToChoose/MDCSwipeToChoose.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MDCSwipeToChoose;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		70386E13CD738E9AB07277B52FCC201A /* Release */ = {
+		211D15415EC644E8D3EC6411C0CEC34D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7034008D4C0CDD884630B598B87C324 /* Pods.release.xcconfig */;
+			baseConfigurationReference = C7E196C25DB0F010AF9738446C320950 /* Alamofire.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.2.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7C43CC85C619AF8160798546B1440CD4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B06554D5FD77907032085540DB207F00 /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		8BA6ADD39859591E52EB590CDBC6687E /* Debug */ = {
+		319568F5EB2DDCC760802028E2A19E39 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AF306588C16ABD6D4C402D60C909328 /* MDCSwipeToChoose.xcconfig */;
+			baseConfigurationReference = 9CF30F87F2A997FA38291574D736A20F /* SVProgressHUD.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MDCSwipeToChoose/MDCSwipeToChoose-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69870FE0109270EF191DEC7E852B02CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156F812DEA20C8DA63CA82A947F14D85 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A189D9C66F2ED20B9419EDE5A3A0DB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF30F87F2A997FA38291574D736A20F /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.1.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -576,21 +774,88 @@
 			};
 			name = Debug;
 		};
-		CB1781BFA131959CAAF52E5223B78336 /* Debug */ = {
+		B76F6DAEC1947AFA1A6B550137E00F49 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19445D36D3A9189D466F89E43640A27B /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 961C643984E4F3D4FD17CB4CDE097DD1 /* MDCSwipeToChoose.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.2.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.2.3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MDCSwipeToChoose/MDCSwipeToChoose-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDCSwipeToChoose/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MDCSwipeToChoose/MDCSwipeToChoose.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MDCSwipeToChoose;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9AB14D8B87511A40A9DC73EFFBC7797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E196C25DB0F010AF9738446C320950 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.2.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1DBD445FBA0CB5257E66302F3016D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33BBB3F0EC128142E93C044FB2ECD59 /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -629,6 +894,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		177754D568FD791429BA7EACD9AC8787 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A189D9C66F2ED20B9419EDE5A3A0DB25 /* Debug */,
+				319568F5EB2DDCC760802028E2A19E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -638,29 +912,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D2FFAC685D78A33FF9689926DD86552 /* Build configuration list for PBXNativeTarget "MDCSwipeToChoose" */ = {
+		90AA16503A309695FE4C8C1445277FD4 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BA6ADD39859591E52EB590CDBC6687E /* Debug */,
-				6A8C955C5B507903BB16E07D32BCA3B1 /* Release */,
+				69870FE0109270EF191DEC7E852B02CD /* Debug */,
+				E1DBD445FBA0CB5257E66302F3016D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		982A115D913AF934BD9EBB5A88B8BB47 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+		BF9288B01E027AFE2B46E43DDA088070 /* Build configuration list for PBXNativeTarget "MDCSwipeToChoose" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C43CC85C619AF8160798546B1440CD4 /* Debug */,
-				5178D4D42E06BB774103124A5E0DEB4A /* Release */,
+				B76F6DAEC1947AFA1A6B550137E00F49 /* Debug */,
+				0CD3166FF568EDBA1F0020DA2530E83B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C22C445B902E1A0E2EB2A9B99E7BC47E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		FE30C9667AEFBA5E282DFA471F99F755 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB1781BFA131959CAAF52E5223B78336 /* Debug */,
-				70386E13CD738E9AB07277B52FCC201A /* Release */,
+				211D15415EC644E8D3EC6411C0CEC34D /* Debug */,
+				B9AB14D8B87511A40A9DC73EFFBC7797 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
