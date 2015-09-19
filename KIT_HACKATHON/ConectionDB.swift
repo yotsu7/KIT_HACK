@@ -34,6 +34,7 @@ class ConnectionDB{
                 var json = JSON(data!)
                 if json["status"].toString() == "ok" {
                     self.appDelegate.accessToken = json["access_token"].toString()
+                    
                     ns.postNotificationName(priorityProcessing, object: nil)
 //                    self.access_token = json["access_token"].toString()
 //                    println(self.access_token!)
