@@ -22,10 +22,21 @@ class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate
     ]
     var girlsTypeArray = [8,11,2,12,12]
     var sendType: [Int] = []
+    let priorityProcessing = "priorityProcessing"
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
+        CD.sign_in("11")
+        
+        NSNotificationCenter.defaultCenter().addObserver(
+            self,
+            selector: "priorityProcessing:",
+            name: priorityProcessing,
+            object: nil
+        )
+
 
         var accessFlg = appDelegate.accessFlg
         if accessFlg == nil{
@@ -38,6 +49,16 @@ class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate
         
         
     }
+
+    
+
+
+// Notification Method（通知受信時のメソッド）
+func priorityProcessing(notification: NSNotification) {
+    var sample = appDelegate.accessToken
+    println("\(sample!)")
+}
+
     func setImage(accessFlg: Bool){
         if accessFlg{
             println("test成功")
