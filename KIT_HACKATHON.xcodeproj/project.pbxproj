@@ -10,7 +10,7 @@
 		3C8646577DB3BA2785C78253 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8CEBF71610979F2B7784BA /* libPods.a */; };
 		DD970F111BAD545500F098D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F101BAD545500F098D3 /* AppDelegate.swift */; };
 		DD970F141BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD970F121BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld */; };
-		DD970F161BAD545500F098D3 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F151BAD545500F098D3 /* LoginController.swift */; };
+		DD970F161BAD545500F098D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F151BAD545500F098D3 /* ViewController.swift */; };
 		DD970F191BAD545500F098D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD970F171BAD545500F098D3 /* Main.storyboard */; };
 		DD970F1B1BAD545500F098D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD970F1A1BAD545500F098D3 /* Images.xcassets */; };
 		DD970F1E1BAD545500F098D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD970F1C1BAD545500F098D3 /* LaunchScreen.xib */; };
@@ -37,7 +37,7 @@
 		DD970F0F1BAD545500F098D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD970F101BAD545500F098D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD970F131BAD545500F098D3 /* KIT_HACKATHON.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KIT_HACKATHON.xcdatamodel; sourceTree = "<group>"; };
-		DD970F151BAD545500F098D3 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		DD970F151BAD545500F098D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD970F181BAD545500F098D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD970F1A1BAD545500F098D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DD970F1D1BAD545500F098D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				DD970F101BAD545500F098D3 /* AppDelegate.swift */,
-				DD970F151BAD545500F098D3 /* LoginController.swift */,
+				DD970F151BAD545500F098D3 /* ViewController.swift */,
 				DD970F361BAD571E00F098D3 /* json.swift */,
 				DD970F171BAD545500F098D3 /* Main.storyboard */,
 				DD970F1A1BAD545500F098D3 /* Images.xcassets */,
@@ -194,6 +194,7 @@
 		DD970F031BAD545400F098D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = TakamitsuYotsuyanagi;
 				TargetAttributes = {
@@ -298,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD970F161BAD545500F098D3 /* LoginController.swift in Sources */,
+				DD970F161BAD545500F098D3 /* ViewController.swift in Sources */,
 				DD970F351BAD558300F098D3 /* cocoapods.m in Sources */,
 				DD970F371BAD571E00F098D3 /* json.swift in Sources */,
 				DD970F141BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld in Sources */,
