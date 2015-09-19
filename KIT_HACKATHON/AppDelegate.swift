@@ -8,12 +8,14 @@
 
 import UIKit
 import CoreData
+import Alamofire
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var accessFlg: Bool?
+    var access_token: String?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
@@ -107,6 +109,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+    
+    func sign_in (my_number: String) {
+        let parameters = ["my_number": my_number]
+        
+        Alamofire
+            .request(.POST, "http://153.120.166.12/user_sessions.json", parameters: parameters)
+            .responseJSON { (request, response, data, error) in
+                var json = JSON(data!)
+                if json["status"].toString() == "ok" {
+                    self.access_token = json["access_token"].toString()
+                    println(self.access_token!)
+                }
+        }
+    }
 }
 
