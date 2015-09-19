@@ -1,4 +1,5 @@
 platform :ios, "8.0"
+use_frameworks!
 
-pod 'SVProgressHUD'
 pod 'MDCSwipeToChoose'
+pod 'Alamofire', '1.2.0'
