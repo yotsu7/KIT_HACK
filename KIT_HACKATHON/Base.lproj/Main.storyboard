@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A282a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -15,6 +15,7 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -33,6 +34,7 @@
                     <view key="view" contentMode="scaleToFill" id="I5o-fk-kzL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -40,6 +42,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8cX-c4-AT8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="925.5" y="261.5"/>
+        </scene>
+        <!--Tabbar View Controller-->
+        <scene sceneID="AxP-ow-H4k">
+            <objects>
+                <viewController storyboardIdentifier="tabbar" id="lSJ-OG-Rq3" customClass="TabbarViewController" customModule="KIT_HACKATHON" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rMK-nY-v7x"/>
+                        <viewControllerLayoutGuide type="bottom" id="nG3-kK-NAS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kgf-Us-Y2o">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6u9-Qs-dOV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973" y="1084"/>
         </scene>
         <!--Select Preference View Controller-->
         <scene sceneID="qi0-5H-t3w">
@@ -52,17 +73,7 @@
                     <view key="view" contentMode="scaleToFill" id="RB8-Fn-DYd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAe-Xj-uh6">
-                                <rect key="frame" x="164" y="269" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="onClickBtn:" destination="eFv-lA-dAV" eventType="touchUpInside" id="R4E-Cs-Pou"/>
-                                </connections>
-                            </button>
-                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -71,10 +82,29 @@
             </objects>
             <point key="canvasLocation" x="1430.5" y="261.5"/>
         </scene>
+        <!--Talk View Controller-->
+        <scene sceneID="EOb-s0-9b9">
+            <objects>
+                <viewController storyboardIdentifier="talk" id="cKp-ox-6IV" customClass="TalkViewController" customModule="KIT_HACKATHON" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U61-nU-ttv"/>
+                        <viewControllerLayoutGuide type="bottom" id="QZn-hV-mwe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Heu-kQ-WRt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E9g-MA-21I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2015" y="658"/>
+        </scene>
         <!--First View Controller-->
         <scene sceneID="5ZV-hA-uZw">
             <objects>
-                <viewController id="Ivq-pM-DJf" customClass="FirstViewController" customModule="KIT_HACKATHON" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="firstview" id="Ivq-pM-DJf" customClass="FirstViewController" customModule="KIT_HACKATHON" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zcw-5w-NUk"/>
                         <viewControllerLayoutGuide type="bottom" id="bAb-Fg-b1e"/>
@@ -82,6 +112,7 @@
                     <view key="view" contentMode="scaleToFill" id="ehe-6A-0vc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
