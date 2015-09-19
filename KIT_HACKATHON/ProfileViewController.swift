@@ -22,7 +22,7 @@ class ProfileViewController: UIViewController, UITextFieldDelegate{
         super.viewDidLoad()
         
         myImageView                = UIImageView(frame: CGRectMake(0, 0, 100, 100))
-        let myImage                = UIImage(named: "faceImage.jpeg")
+        let myImage                = UIImage(named: "faceImage.jpg")
         myImageView.image          = myImage
         myImageView.layer.position = CGPoint(x: self.view.bounds.width / 2 - 120,y: self.view.bounds.height / 2 - 250)
         self.view.addSubview(myImageView)
@@ -76,13 +76,13 @@ class ProfileViewController: UIViewController, UITextFieldDelegate{
     }
     internal func onClickNextBtn(sender: UIButton){
         println("onClickNextBtn")
-//        var targetView: AnyObject = self.storyboard!.instantiateViewControllerWithIdentifier( "profile" )
-//        self.presentViewController( targetView as! UIViewController, animated: true, completion: nil)
+        var targetView: AnyObject = self.storyboard!.instantiateViewControllerWithIdentifier( "selectPreference" )
+        self.presentViewController( targetView as! UIViewController, animated: true, completion: nil)
     }
     internal func onClickBackBtn(sender: UIButton){
         println("onClickBackBtn")
-        //        var targetView: AnyObject = self.storyboard!.instantiateViewControllerWithIdentifier( "profile" )
-        //        self.presentViewController( targetView as! UIViewController, animated: true, completion: nil)
+                var targetView: AnyObject = self.storyboard!.instantiateViewControllerWithIdentifier( "view" )
+                self.presentViewController( targetView as! UIViewController, animated: true, completion: nil)
     }
     func textFieldShouldReturn(text: UITextField) -> Bool{
         text.resignFirstResponder()
