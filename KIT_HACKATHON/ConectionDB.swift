@@ -11,9 +11,10 @@ import Alamofire
 class ConnectionDB{
     
     var appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+    var url = "http://153.120.166.12"
     
     func recomendImage() -> [String]{
-        var api = JSON(url: "http://153.120.166.12/face_selections/0.json")
+        var api = JSON(url: "\(self.url)/face_selections/0.json")
         var girlsImageArray: [String] = []
         println("\(api.length)")
         
@@ -39,6 +40,14 @@ class ConnectionDB{
 //                    println(self.access_token!)
                 }
         }
+    }
+    
+    func recommendedUsers() -> JSON {
+//        var accessToken = "22b47d8ca6970e1d4f5d30b8ab3aa072"
+        var accessToken = appDelegate.accessToken!
+        var users = JSON(url: "\(self.url)/recommended_users.json?access_token=\(accessToken)")
+
+        return users
     }
     
 }
