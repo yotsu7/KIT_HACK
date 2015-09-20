@@ -23,6 +23,7 @@
 		DD34E26D1BADD14E00CB5B35 /* ConectionDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34E26C1BADD14E00CB5B35 /* ConectionDB.swift */; };
 		DD34E26F1BAE45CC00CB5B35 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34E26E1BAE45CC00CB5B35 /* MyProfileViewController.swift */; };
 		DD34E2711BAE475900CB5B35 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34E2701BAE475900CB5B35 /* ConfigurationViewController.swift */; };
+		DD34E2731BAE779C00CB5B35 /* send_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD34E2721BAE779C00CB5B35 /* send_icon.jpg */; };
 		DD970F111BAD545500F098D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F101BAD545500F098D3 /* AppDelegate.swift */; };
 		DD970F141BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD970F121BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld */; };
 		DD970F161BAD545500F098D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F151BAD545500F098D3 /* ViewController.swift */; };
@@ -63,6 +64,7 @@
 		DD34E26C1BADD14E00CB5B35 /* ConectionDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConectionDB.swift; sourceTree = "<group>"; };
 		DD34E26E1BAE45CC00CB5B35 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		DD34E2701BAE475900CB5B35 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		DD34E2721BAE779C00CB5B35 /* send_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = send_icon.jpg; sourceTree = "<group>"; };
 		DD970F0B1BAD545400F098D3 /* KIT_HACKATHON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIT_HACKATHON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD970F0F1BAD545500F098D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD970F101BAD545500F098D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 		DD970F0E1BAD545400F098D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD34E2721BAE779C00CB5B35 /* send_icon.jpg */,
 				7AEBED621BAE46170071EAA1 /* background.jpg */,
 				DD34E2661BADB29300CB5B35 /* no3.jpg */,
 				DD34E2641BADB21400CB5B35 /* no5.jpg */,
@@ -278,6 +281,7 @@
 			files = (
 				DD34E25B1BAD9C0500CB5B35 /* no1.jpg in Resources */,
 				7AEBED631BAE46170071EAA1 /* background.jpg in Resources */,
+				DD34E2731BAE779C00CB5B35 /* send_icon.jpg in Resources */,
 				DD34E24B1BAD697700CB5B35 /* faceImage.jpg in Resources */,
 				DD970F191BAD545500F098D3 /* Main.storyboard in Resources */,
 				DD34E2651BADB21400CB5B35 /* no5.jpg in Resources */,
