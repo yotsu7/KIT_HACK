@@ -189,9 +189,28 @@ class ViewController: UIViewController , UITextFieldDelegate{
     }
     
     internal func onClickNextBtn(sender: UIButton){
-        println("onClickNextBtn")
-        var targetView: AnyObject = self.storyboard!.instantiateViewControllerWithIdentifier( "profile" )
-        self.presentViewController( targetView as! UIViewController, animated: true, completion: nil)
+        if message != ""{
+            println("onClickNextBtn")
+            appDelegate.myNumber = message
+            println(message)
+            
+            var targetView: AnyObject = self.storyboard!.instantiateViewControllerWithIdentifier( "profile" )
+            self.presentViewController( targetView as! UIViewController, animated: true, completion: nil)
+        }else{
+            
+            //アラート
+            // UIAlertControllerを作成する.
+            let myAlert: UIAlertController = UIAlertController(title: "input error", message: "please, input your 'mynumber'.", preferredStyle: .Alert)
+            // OKのアクションを作成する.
+            let myOkAction = UIAlertAction(title: "OK", style: .Default) { action in
+                println("error aleart: 入力エラー")
+            }
+            // OKのActionを追加する.
+            myAlert.addAction(myOkAction)
+            
+            // UIAlertを発動する.
+            presentViewController(myAlert, animated: true, completion: nil)
+        }
     }
     
     
