@@ -88,10 +88,6 @@ class ViewController: UIViewController , UITextFieldDelegate{
         // イベントを追加する
         signupButton.addTarget(self, action: "onClickSignupButton:", forControlEvents: .TouchUpInside)
 
-        // タイトルを設定する(ボタンがハイライトされた時)
-        signupButton.setTitle("登録", forState: UIControlState.Highlighted)
-        signupButton.setTitleColor(UIColor.blackColor(), forState: UIControlState.Highlighted)
-
         // ボタンをViewに追加する
         self.view.addSubview(signupButton)
 
@@ -109,12 +105,11 @@ class ViewController: UIViewController , UITextFieldDelegate{
         logonButton.backgroundColor = UIColor.redColor()
         // 枠を丸くする
         logonButton.layer.masksToBounds = true
+
         // タイトルを設定する(通常時)
         logonButton.setTitle("ログオン", forState: UIControlState.Normal)
         logonButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
-        // タイトルを設定する(ボタンがハイライトされた時)
-        logonButton.setTitle("ログオン", forState: UIControlState.Highlighted)
-        logonButton.setTitleColor(UIColor.blackColor(), forState: UIControlState.Highlighted)
+
         // コーナーの半径を設定する
         logonButton.layer.cornerRadius = 5.0
         // ボタンの位置を指定する
@@ -184,6 +179,30 @@ class ViewController: UIViewController , UITextFieldDelegate{
     登録ボタンのアクション時に設定したメソッド
     */
     internal func onClickSignupButton(sender: UIButton){
+
+        //アニメーション
+        let b = self.signupButton.bounds
+        UIView.animateWithDuration(1.1, delay: 0.0, usingSpringWithDamping: 0.2, initialSpringVelocity: 5, options: nil, animations: {
+            // ボタンサイズの変更
+            self.signupButton.bounds = CGRectMake(b.origin.x, b.origin.y, b.size.width + 10, b.size.height)
+            // ボタンカラーの変更
+            self.signupButton.backgroundColor = UIColor(red: 0.85, green: 0.83, blue: 0.45, alpha: 1.0)
+            // spinnerのalpha値を変更して表示
+            self.spinner.alpha = 1.0
+            // spinnerの位置を設定
+            self.spinner.center = CGPointMake(40, self.signupButton.frame.size.height / 2)
+            }, completion: nil)
+        
+        UIView.animateWithDuration(1.0, delay: 0.2, usingSpringWithDamping: 0.2, initialSpringVelocity: 3, options: nil, animations: {
+            // ボタンサイズを元に戻す
+            self.signupButton.bounds = CGRectMake(b.origin.x, b.origin.y, b.size.width, b.size.height)
+            // ボタンカラーを元に戻す
+            self.signupButton.backgroundColor = self.UIColorFromRGB(0x2ecc71)
+            // spinnerを非表示に
+            self.spinner.alpha = 0.0
+            }, completion: nil)
+
+        
         
         //登録処理
         if message != ""{
@@ -206,28 +225,7 @@ class ViewController: UIViewController , UITextFieldDelegate{
             presentViewController(myAlert, animated: true, completion: nil)
         }
         
-        //アニメーション
-        let b = self.signupButton.bounds
-        UIView.animateWithDuration(1.5, delay: 0.0, usingSpringWithDamping: 0.2, initialSpringVelocity: 20, options: nil, animations: {
-            // ボタンサイズの変更
-            self.signupButton.bounds = CGRectMake(b.origin.x - 20, b.origin.y, b.size.width + 80, b.size.height)
-            // ボタンカラーの変更
-            self.signupButton.backgroundColor = UIColor(red: 0.85, green: 0.83, blue: 0.45, alpha: 1.0)
-            // spinnerのalpha値を変更して表示
-            self.spinner.alpha = 1.0
-            // spinnerの位置を設定
-            self.spinner.center = CGPointMake(40, self.signupButton.frame.size.height / 2)
-            }, completion: nil)
-        
-        UIView.animateWithDuration(1.0, delay: 0.3, usingSpringWithDamping: 0.2, initialSpringVelocity: 20, options: nil, animations: {
-            // ボタンサイズを元に戻す
-            self.signupButton.bounds = CGRectMake(b.origin.x, b.origin.y, b.size.width, b.size.height)
-            // ボタンカラーを元に戻す
-            self.signupButton.backgroundColor = self.UIColorFromRGB(0x2ecc71)
-            // spinnerを非表示に
-            self.spinner.alpha = 0.0
-            }, completion: nil)
-        
+
     }
     
     
@@ -236,6 +234,29 @@ class ViewController: UIViewController , UITextFieldDelegate{
     ログオンボタンのアクション時に設定したメソッド
     */
     internal func onClickLogonButton(sender: UIButton){
+        
+        //アニメーション
+        let b = self.logonButton.bounds
+        UIView.animateWithDuration(1.1, delay: 0.0, usingSpringWithDamping: 0.2, initialSpringVelocity: 5, options: nil, animations: {
+            // ボタンサイズの変更
+            self.logonButton.bounds = CGRectMake(b.origin.x, b.origin.y, b.size.width + 10, b.size.height)
+            // ボタンカラーの変更
+            self.logonButton.backgroundColor = UIColor(red: 0.85, green: 0.83, blue: 0.45, alpha: 1.0)
+            // spinnerのalpha値を変更して表示
+            self.spinner.alpha = 1.0
+            // spinnerの位置を設定
+            self.spinner.center = CGPointMake(40, self.logonButton.frame.size.height / 2)
+            }, completion: nil)
+        
+        UIView.animateWithDuration(1.0, delay: 0.2, usingSpringWithDamping: 0.2, initialSpringVelocity: 3, options: nil, animations: {
+            // ボタンサイズを元に戻す
+            self.logonButton.bounds = CGRectMake(b.origin.x, b.origin.y, b.size.width, b.size.height)
+            // ボタンカラーを元に戻す
+            self.logonButton.backgroundColor = UIColor.redColor()
+            // spinnerを非表示に
+            self.spinner.alpha = 0.0
+            }, completion: nil)
+
         
         //ログオン処理
         if message != ""{
@@ -258,27 +279,6 @@ class ViewController: UIViewController , UITextFieldDelegate{
 
         }
         
-        //アニメーション
-        let b = self.logonButton.bounds
-        UIView.animateWithDuration(1.5, delay: 0.0, usingSpringWithDamping: 0.2, initialSpringVelocity: 20, options: nil, animations: {
-            // ボタンサイズの変更
-            self.logonButton.bounds = CGRectMake(b.origin.x - 20, b.origin.y, b.size.width + 80, b.size.height)
-            // ボタンカラーの変更
-            self.logonButton.backgroundColor = UIColor(red: 0.85, green: 0.83, blue: 0.45, alpha: 1.0)
-            // spinnerのalpha値を変更して表示
-            self.spinner.alpha = 1.0
-            // spinnerの位置を設定
-            self.spinner.center = CGPointMake(40, self.logonButton.frame.size.height / 2)
-            }, completion: nil)
-        
-        UIView.animateWithDuration(1.0, delay: 0.3, usingSpringWithDamping: 0.2, initialSpringVelocity: 20, options: nil, animations: {
-            // ボタンサイズを元に戻す
-            self.logonButton.bounds = CGRectMake(b.origin.x, b.origin.y, b.size.width, b.size.height)
-            // ボタンカラーを元に戻す
-            self.logonButton.backgroundColor = UIColor.redColor()
-            // spinnerを非表示に
-            self.spinner.alpha = 0.0
-            }, completion: nil)
         
     }
 
