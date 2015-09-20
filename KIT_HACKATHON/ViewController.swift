@@ -19,6 +19,11 @@ class ViewController: UIViewController , UITextFieldDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        /*背景画像*/
+        let backgroundImage = UIImage(named: "background.jpg")!
+        self.view.backgroundColor = UIColor(patternImage: backgroundImage)
+        /*背景画像*/
+        
         /*タップ*/
         var tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "DismissKeyboard")
         view.addGestureRecognizer(tap)

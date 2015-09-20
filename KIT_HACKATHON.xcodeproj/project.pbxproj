@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AEBED631BAE46170071EAA1 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AEBED621BAE46170071EAA1 /* background.jpg */; };
 		A5D4BBD91BADF612008505E6 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4BBD81BADF612008505E6 /* TabbarViewController.swift */; };
 		A5D4BBDB1BADF8BD008505E6 /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4BBDA1BADF8BD008505E6 /* TalkViewController.swift */; };
 		DAA79E254B9C839700928112 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76254271D6C29297F62390EF /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -22,6 +23,7 @@
 		DD34E26D1BADD14E00CB5B35 /* ConectionDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34E26C1BADD14E00CB5B35 /* ConectionDB.swift */; };
 		DD34E26F1BAE45CC00CB5B35 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34E26E1BAE45CC00CB5B35 /* MyProfileViewController.swift */; };
 		DD34E2711BAE475900CB5B35 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34E2701BAE475900CB5B35 /* ConfigurationViewController.swift */; };
+		DD34E2731BAE779C00CB5B35 /* send_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD34E2721BAE779C00CB5B35 /* send_icon.jpg */; };
 		DD970F111BAD545500F098D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F101BAD545500F098D3 /* AppDelegate.swift */; };
 		DD970F141BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD970F121BAD545500F098D3 /* KIT_HACKATHON.xcdatamodeld */; };
 		DD970F161BAD545500F098D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD970F151BAD545500F098D3 /* ViewController.swift */; };
@@ -47,6 +49,7 @@
 		2A9C66C97D44BF384911D2DC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		76254271D6C29297F62390EF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		771C3F7F418DCB48D198DD07 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7AEBED621BAE46170071EAA1 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		A5D4BBD81BADF612008505E6 /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		A5D4BBDA1BADF8BD008505E6 /* TalkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkViewController.swift; sourceTree = "<group>"; };
 		DD34E2481BAD68AD00CB5B35 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +64,7 @@
 		DD34E26C1BADD14E00CB5B35 /* ConectionDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConectionDB.swift; sourceTree = "<group>"; };
 		DD34E26E1BAE45CC00CB5B35 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		DD34E2701BAE475900CB5B35 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		DD34E2721BAE779C00CB5B35 /* send_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = send_icon.jpg; sourceTree = "<group>"; };
 		DD970F0B1BAD545400F098D3 /* KIT_HACKATHON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIT_HACKATHON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD970F0F1BAD545500F098D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD970F101BAD545500F098D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 		DD970F0E1BAD545400F098D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD34E2721BAE779C00CB5B35 /* send_icon.jpg */,
+				7AEBED621BAE46170071EAA1 /* background.jpg */,
 				DD34E2661BADB29300CB5B35 /* no3.jpg */,
 				DD34E2641BADB21400CB5B35 /* no5.jpg */,
 				DD34E2601BAD9C2400CB5B35 /* no4.jpg */,
@@ -274,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD34E25B1BAD9C0500CB5B35 /* no1.jpg in Resources */,
+				7AEBED631BAE46170071EAA1 /* background.jpg in Resources */,
+				DD34E2731BAE779C00CB5B35 /* send_icon.jpg in Resources */,
 				DD34E24B1BAD697700CB5B35 /* faceImage.jpg in Resources */,
 				DD970F191BAD545500F098D3 /* Main.storyboard in Resources */,
 				DD34E2651BADB21400CB5B35 /* no5.jpg in Resources */,
