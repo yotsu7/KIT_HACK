@@ -24,6 +24,51 @@ class ConnectionDB{
         return girlsImageArray
     }
     
+    func sign_up () {
+        var my_number = appDelegate.myNumber!
+        let parameters = [
+            "user": [
+                "my_number": my_number,
+                "name": "村上優太",
+                "birthdate": "1993-05-11",
+                "address": "石川県野々市市",
+                "avatar": "http://girlschannel.net/post_img/2013/01/gFLq2ipbIOOiFr1_kExIH_78.jpeg",
+                "hobby": "サッカー",
+                "gender": "0",
+                "face_type_id": "1",
+                "preference_faces_attributes": [
+                    ["face_type_id": "2"],
+                ],
+                "crime_histories_attributes": [
+                    ["crime_name": "万引き", "crimed_at": "2015-01-01"],
+                ],
+                "medical_histories_attributes": [
+                    ["disease_name": "風邪", "joined_at": "2012-05-05", "quited_at": "2013-01-01"],
+                ],
+                "work_experiences_attributes": [
+                    ["company_name": "金沢工業大学", "joined_at": "1455-12-14", "quited_at": "1983-11-10"],
+                ],
+                "educational_backgrounds_attributes": [
+                    ["school_name": "金沢工業大学", "joined_at": "1433-12-12", "quited_at": "1444-04-04"],
+                ],
+            ]
+        ]
+        
+        let priorityProcessing = "priorityProcessing"
+        let ns = NSNotificationCenter.defaultCenter()
+        
+        Alamofire
+            .request(.POST, "http://153.120.166.12/users.json", parameters: parameters)
+            .responseJSON { (request, response, data, error) in
+                var json = JSON(data!)
+                if json["status"].toString() == "created" {
+                    self.appDelegate.accessToken = json["access_token"].toString()
+                    
+                    ns.postNotificationName(priorityProcessing, object: nil)
+                }
+        }
+    }
+    
     func sign_in (my_number: String) {
         let parameters = ["my_number": my_number]
         let priorityProcessing = "priorityProcessing"
@@ -37,8 +82,6 @@ class ConnectionDB{
                     self.appDelegate.accessToken = json["access_token"].toString()
                     
                     ns.postNotificationName(priorityProcessing, object: nil)
-//                    self.access_token = json["access_token"].toString()
-//                    println(self.access_token!)
                 }
         }
     }

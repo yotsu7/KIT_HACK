@@ -16,7 +16,7 @@ class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate
     @IBAction func btn(sender: AnyObject) {
         println("\(sendType)")
         appDelegate.faceType = sendType
-        CD.sign_in("33")
+        CD.sign_up()
                 NSNotificationCenter.defaultCenter().addObserver(
                     self,
                     selector: "priorityProcessing:",
@@ -27,10 +27,10 @@ class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate
     func priorityProcessing(notification: NSNotification) {
         if appDelegate.accessToken != nil{
             //Tabbarへ移行
-            let mySecondViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("view") as! UIViewController
-            self.presentViewController(mySecondViewController, animated: true, completion: nil)
-//            let mySecondViewController: UIViewController = ViewController()
+//            let mySecondViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("tagbar") as! UIViewController
 //            self.presentViewController(mySecondViewController, animated: true, completion: nil)
+            let mySecondViewController: UIViewController = TabbarViewController()
+            self.presentViewController(mySecondViewController, animated: true, completion: nil)
             println("success")
         }else{
         }
