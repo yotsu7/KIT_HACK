@@ -53,7 +53,7 @@ class ViewController: UIViewController , UITextFieldDelegate{
         //フォント指定
         label.font = UIFont(name: "Zapfino",size: 16)
         //ラベルの位置
-        label.layer.position = CGPoint(x: self.view.bounds.width / 2, y: view.bounds.height / 2 - 110)
+        label.layer.position = CGPoint(x: self.view.bounds.width / 2, y: view.bounds.height / 2 - 180)
         //文字
         label.text = "あなたのマイナンバーを入力"
         //文字色
@@ -83,7 +83,7 @@ class ViewController: UIViewController , UITextFieldDelegate{
         // ボタンの位置を指定する
         signupButton.layer.position = CGPoint(x: self.view.frame.width/2 + 60 , y:400)
         // イベントを追加する
-        signupButton.addTarget(self, action: "onClickButton:", forControlEvents: .TouchUpInside)
+        signupButton.addTarget(self, action: "onClickNextBtn:", forControlEvents: .TouchUpInside)
         // ボタンをViewに追加する
         self.view.addSubview(signupButton)
         /*サインアップボタン*/
@@ -124,6 +124,7 @@ class ViewController: UIViewController , UITextFieldDelegate{
     */
     func textFieldDidBeginEditing(text: UITextField){
         message = text.text!
+
     }
     
     /*
@@ -192,6 +193,12 @@ class ViewController: UIViewController , UITextFieldDelegate{
         //var appdelate
     }
     
+    internal func onClickNextBtn(sender: UIButton){
+        println("onClickNextBtn")
+        var targetView: AnyObject = self.storyboard!.instantiateViewControllerWithIdentifier( "profile" )
+        self.presentViewController( targetView as! UIViewController, animated: true, completion: nil)
+    }
+    
     
     /*
     Connectionから値を取ってくる
@@ -199,6 +206,7 @@ class ViewController: UIViewController , UITextFieldDelegate{
     func priorityProcessing(notification: NSNotification) {
         if appDelegate.accessToken != nil{
             //Tabbarへ移行
+            appDelegate.myNumber = message
             let mySecondViewController: UIViewController = TabbarViewController()
             self.presentViewController(mySecondViewController, animated: true, completion: nil)
             println("success")

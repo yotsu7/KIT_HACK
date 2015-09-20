@@ -22,11 +22,17 @@ class TabbarViewController: UIViewController {
         // Tabに設定するViewControllerのインスタンスを生成.
         let myFirstTab: UIViewController = FirstViewController()
         let myTalkTab: UIViewController = TalkViewController()
-        myFirstTab.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Featured, tag: 1)
-        myTalkTab.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Featured, tag: 2)
+        let myProfileTab: UIViewController = MyProfileViewController()
+        let configurationTab: UIViewController = ConfigurationViewController()
+        myFirstTab.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Search, tag: 1)
+        myTalkTab.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.TopRated, tag: 2)
+        myProfileTab.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Contacts, tag: 3)
+        configurationTab.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.More, tag: 4)
+        
+        
         
         // タブを要素に持つArrayの.を作成する.
-        let myTabs = NSArray(objects: myFirstTab, myTalkTab)
+        let myTabs = NSArray(objects: myFirstTab, myTalkTab,myProfileTab, configurationTab)
         
         // UITabControllerの作成する.
         myTabBarController = UITabBarController()

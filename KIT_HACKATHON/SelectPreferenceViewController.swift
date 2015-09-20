@@ -10,11 +10,38 @@ import UIKit
 import MDCSwipeToChoose
 
 class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate{
-    
     var CD = ConnectionDB()
+    let priorityProcessing = "priorityProcessing"
+    var appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+    @IBAction func btn(sender: AnyObject) {
+        println("\(sendType)")
+        appDelegate.faceType = sendType
+        CD.sign_in("33")
+                NSNotificationCenter.defaultCenter().addObserver(
+                    self,
+                    selector: "priorityProcessing:",
+                    name: priorityProcessing,
+                    object: nil
+                )
+    }
+    func priorityProcessing(notification: NSNotification) {
+        if appDelegate.accessToken != nil{
+            //Tabbarへ移行
+            let mySecondViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("view") as! UIViewController
+            self.presentViewController(mySecondViewController, animated: true, completion: nil)
+//            let mySecondViewController: UIViewController = ViewController()
+//            self.presentViewController(mySecondViewController, animated: true, completion: nil)
+            println("success")
+        }else{
+        }
+
+    }
+
+    
+    
     
     var swipeCount: Int = 0
-    var appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+    
     var girlsImageArray = [
         UIImage(named: "no1.jpg")!,UIImage(named: "no2.jpg")!,
         UIImage(named: "no3.jpg")!,UIImage(named: "no4.jpg")!,
@@ -22,7 +49,7 @@ class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate
     ]
     var girlsTypeArray = [8,11,2,12,12]
     var sendType: [Int] = []
-//    let priorityProcessing = "priorityProcessing"
+
     
     override func viewDidLoad() {
         
@@ -144,11 +171,7 @@ class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate
         }
         swipeCount++
     }
-    @IBAction func onClickBtn(sender: AnyObject) {
-        println("\(sendType)")
-        appDelegate.faceType = sendType
-    }
-    
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
