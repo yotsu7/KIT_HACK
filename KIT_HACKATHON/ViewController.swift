@@ -78,7 +78,7 @@ class ViewController: UIViewController , UITextFieldDelegate{
         // ボタンの位置を指定する
         signupButton.layer.position = CGPoint(x: self.view.frame.width/2 + 60 , y:400)
         // イベントを追加する
-        signupButton.addTarget(self, action: "onClickButton:", forControlEvents: .TouchUpInside)
+        signupButton.addTarget(self, action: "onClickNextBtn:", forControlEvents: .TouchUpInside)
         // ボタンをViewに追加する
         self.view.addSubview(signupButton)
         /*サインアップボタン*/
@@ -185,6 +185,12 @@ class ViewController: UIViewController , UITextFieldDelegate{
 
         }
         //var appdelate
+    }
+    
+    internal func onClickNextBtn(sender: UIButton){
+        println("onClickNextBtn")
+        var targetView: AnyObject = self.storyboard!.instantiateViewControllerWithIdentifier( "profile" )
+        self.presentViewController( targetView as! UIViewController, animated: true, completion: nil)
     }
     
     
