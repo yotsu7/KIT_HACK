@@ -63,9 +63,6 @@ class ConnectionDB{
         ]
         
         
-        let priorityProcessing = "priorityProcessing"
-        let ns = NSNotificationCenter.defaultCenter()
-        
         Alamofire
             .request(.POST, "http://153.120.166.12/users.json", parameters: parameters)
             .responseJSON { (request, response, data, error) in
@@ -73,15 +70,20 @@ class ConnectionDB{
                 if json["status"].toString() == "created" {
                     self.appDelegate.accessToken = json["access_token"].toString()
                     
-                    ns.postNotificationName(priorityProcessing, object: nil)
+                    if self.appDelegate.accessToken != nil{
+                        var view = self.appDelegate.window!.rootViewController
+                        
+                        // Tabbarへ移行
+                        let mySecondViewController: UIViewController = TabbarViewController()
+                        view!.presentViewController(mySecondViewController, animated: true, completion: nil)
+                        println("success")
+                    }
                 }
         }
     }
     
     func sign_in (my_number: String) {
         let parameters = ["my_number": my_number]
-        let priorityProcessing = "priorityProcessing"
-        let ns = NSNotificationCenter.defaultCenter()
         
         Alamofire
             .request(.POST, "http://153.120.166.12/user_sessions.json", parameters: parameters)
@@ -90,7 +92,28 @@ class ConnectionDB{
                 if json["status"].toString() == "ok" {
                     self.appDelegate.accessToken = json["access_token"].toString()
                     
-                    ns.postNotificationName(priorityProcessing, object: nil)
+                    
+                    var view = self.appDelegate.window!.rootViewController
+                    
+                    if self.appDelegate.accessToken != nil{
+                        //Tabbarへ移行
+                        let mySecondViewController: UIViewController = TabbarViewController()
+                        view!.presentViewController(mySecondViewController, animated: true, completion: nil)
+                        println("success")
+                    }else{
+                        //アラート
+                        // UIAlertControllerを作成する.
+                        let myAlert: UIAlertController = UIAlertController(title: "error", message: "Tabbarへ移行できませんでした。.", preferredStyle: .Alert)
+                        // OKのアクションを作成する.
+                        let myOkAction = UIAlertAction(title: "OK", style: .Default) { action in
+                            println("error aleart: Tabbarへの移行ができませんでした。")
+                        }
+                        // OKのActionを追加する.
+                        myAlert.addAction(myOkAction)
+                        
+                        // UIAlertを発動する.
+                        view!.presentViewController(myAlert, animated: true, completion: nil)
+                    }
                 }
         }
     }

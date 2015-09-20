@@ -11,34 +11,14 @@ import MDCSwipeToChoose
 
 class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate{
     var CD = ConnectionDB()
-    let priorityProcessing = "priorityProcessing"
+    let priorityProcessingSignUp = "priorityProcessingSignUp"
     var appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+    
     @IBAction func btn(sender: AnyObject) {
         println("\(sendType)")
         appDelegate.faceType = sendType
         CD.sign_up()
-                NSNotificationCenter.defaultCenter().addObserver(
-                    self,
-                    selector: "priorityProcessing:",
-                    name: priorityProcessing,
-                    object: nil
-                )
     }
-    func priorityProcessing(notification: NSNotification) {
-        if appDelegate.accessToken != nil{
-            //Tabbarへ移行
-//            let mySecondViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("tagbar") as! UIViewController
-//            self.presentViewController(mySecondViewController, animated: true, completion: nil)
-            let mySecondViewController: UIViewController = TabbarViewController()
-            self.presentViewController(mySecondViewController, animated: true, completion: nil)
-            println("success")
-        }else{
-        }
-
-    }
-
-    
-    
     
     var swipeCount: Int = 0
     
@@ -54,16 +34,6 @@ class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        
-//        CD.sign_in("11")
-//        
-//        NSNotificationCenter.defaultCenter().addObserver(
-//            self,
-//            selector: "priorityProcessing:",
-//            name: priorityProcessing,
-//            object: nil
-//        )
-
 
         var accessFlg = appDelegate.accessFlg
         if accessFlg == nil{
@@ -77,14 +47,6 @@ class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate
         
     }
 
-    
-
-
-    // Notification Method（通知受信時のメソッド）
-//    func priorityProcessing(notification: NSNotification) {
-//        var sample = appDelegate.accessToken
-//        println("\(sample!)")
-//    }
 
     func setImage(accessFlg: Bool){
         if accessFlg{

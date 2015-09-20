@@ -14,7 +14,6 @@ class ViewController: UIViewController , UITextFieldDelegate{
     var json:NSData!
     var connect = ConnectionDB()
     var appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-    let priorityProcessing = "priorityProcessing"
     
     
     override func viewDidLoad() {
@@ -167,13 +166,8 @@ class ViewController: UIViewController , UITextFieldDelegate{
     */
     internal func onClickButton(sender: UIButton){
         if message != ""{
+            appDelegate.myNumber = message
             connect.sign_in(message)
-            NSNotificationCenter.defaultCenter().addObserver(
-                self,
-                selector: "priorityProcessing:",
-                name: priorityProcessing,
-                object: nil
-            )
         }else{
 
             //アラート
@@ -209,33 +203,6 @@ class ViewController: UIViewController , UITextFieldDelegate{
             // OKのアクションを作成する.
             let myOkAction = UIAlertAction(title: "OK", style: .Default) { action in
                 println("error aleart: 入力エラー")
-            }
-            // OKのActionを追加する.
-            myAlert.addAction(myOkAction)
-            
-            // UIAlertを発動する.
-            presentViewController(myAlert, animated: true, completion: nil)
-        }
-    }
-    
-    
-    /*
-    Connectionから値を取ってくる
-    */
-    func priorityProcessing(notification: NSNotification) {
-        if appDelegate.accessToken != nil{
-            //Tabbarへ移行
-            appDelegate.myNumber = message
-            let mySecondViewController: UIViewController = TabbarViewController()
-            self.presentViewController(mySecondViewController, animated: true, completion: nil)
-            println("success")
-        }else{
-            //アラート
-            // UIAlertControllerを作成する.
-            let myAlert: UIAlertController = UIAlertController(title: "error", message: "Tabbarへ移行できませんでした。.", preferredStyle: .Alert)
-            // OKのアクションを作成する.
-            let myOkAction = UIAlertAction(title: "OK", style: .Default) { action in
-                println("error aleart: Tabbarへの移行ができませんでした。")
             }
             // OKのActionを追加する.
             myAlert.addAction(myOkAction)
