@@ -45,7 +45,7 @@ class ConnectionDB{
                 "gender": "0",
                 "face_type_id": "1",
                 "preference_faces_attributes": [
-                    ["face_type_if": "12"],
+                    ["face_type_id": "12"],
                 ],
                 "crime_histories_attributes": [
                     ["crime_name": "万引き", "crimed_at": "2015-01-01"],
