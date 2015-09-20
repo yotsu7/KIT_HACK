@@ -119,6 +119,7 @@ class ViewController: UIViewController , UITextFieldDelegate{
     */
     func textFieldDidBeginEditing(text: UITextField){
         message = text.text!
+
     }
     
     /*
@@ -200,6 +201,7 @@ class ViewController: UIViewController , UITextFieldDelegate{
     func priorityProcessing(notification: NSNotification) {
         if appDelegate.accessToken != nil{
             //Tabbarへ移行
+            appDelegate.myNumber = message
             let mySecondViewController: UIViewController = TabbarViewController()
             self.presentViewController(mySecondViewController, animated: true, completion: nil)
             println("success")

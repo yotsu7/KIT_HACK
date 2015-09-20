@@ -27,8 +27,10 @@ class SelectPreferenceViewController: UIViewController, MDCSwipeToChooseDelegate
     func priorityProcessing(notification: NSNotification) {
         if appDelegate.accessToken != nil{
             //Tabbarへ移行
-            let mySecondViewController: UIViewController = TabbarViewController()
+            let mySecondViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("view") as! UIViewController
             self.presentViewController(mySecondViewController, animated: true, completion: nil)
+//            let mySecondViewController: UIViewController = ViewController()
+//            self.presentViewController(mySecondViewController, animated: true, completion: nil)
             println("success")
         }else{
         }

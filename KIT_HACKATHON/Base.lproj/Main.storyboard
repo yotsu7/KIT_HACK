@@ -65,7 +65,7 @@
         <!--Select Preference View Controller-->
         <scene sceneID="qi0-5H-t3w">
             <objects>
-                <viewController storyboardIdentifier="selectPreference" id="eFv-lA-dAV" customClass="SelectPreferenceViewController" customModule="KIT_HACKATHON" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="selectPreference" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eFv-lA-dAV" customClass="SelectPreferenceViewController" customModule="KIT_HACKATHON" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6Cl-Sb-u6D"/>
                         <viewControllerLayoutGuide type="bottom" id="cgi-YN-kSf"/>

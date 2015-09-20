@@ -46,9 +46,21 @@ class ConnectionDB{
     func recommendedUsers() -> JSON {
 //        var accessToken = "22b47d8ca6970e1d4f5d30b8ab3aa072"
         var accessToken = appDelegate.accessToken!
+        println("\(accessToken)")
         var users = JSON(url: "\(self.url)/recommended_users.json?access_token=\(accessToken)")
 
         return users
+    }
+    
+    func getMyProfileData() -> JSON{
+        var appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        var accessToken = appDelegate.accessToken!
+        var myNumber    = appDelegate.myNumber!
+        println("myNumber: \(myNumber)")
+        var userData    = JSON(url: "\(self.url)/users/0.json?access_token=\(accessToken)&my_number=1\(myNumber)")
+        
+        return userData
+
     }
     
 }
