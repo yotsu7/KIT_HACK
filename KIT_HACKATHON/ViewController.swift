@@ -48,7 +48,7 @@ class ViewController: UIViewController , UITextFieldDelegate{
         //フォント指定
         label.font = UIFont(name: "Zapfino",size: 16)
         //ラベルの位置
-        label.layer.position = CGPoint(x: self.view.bounds.width / 2, y: view.bounds.height / 2 - 110)
+        label.layer.position = CGPoint(x: self.view.bounds.width / 2, y: view.bounds.height / 2 - 180)
         //文字
         label.text = "あなたのマイナンバーを入力"
         //文字色
