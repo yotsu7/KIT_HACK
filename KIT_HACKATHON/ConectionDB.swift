@@ -44,11 +44,34 @@ class ConnectionDB{
     }
     
     func recommendedUsers() -> JSON {
-//        var accessToken = "22b47d8ca6970e1d4f5d30b8ab3aa072"
         var accessToken = appDelegate.accessToken!
         var users = JSON(url: "\(self.url)/recommended_users.json?access_token=\(accessToken)")
 
         return users
+    }
+    
+    func sendRequest(receiver_id: String) {
+        let accessToken = appDelegate.accessToken!
+        let parameters = ["access_token": accessToken, "receiver_id": receiver_id, "message": "リクエスト承認お願いします"]
+        
+        Alamofire
+            .request(.POST, "\(self.url)/requests.json", parameters: parameters)
+            .responseJSON { (_, _, data, error) in
+                var json = JSON(data!)
+                println(json)
+                
+                if json["status"].toString() == "created" {
+                    let myAlert: UIAlertController = UIAlertController(title: "リクエスト送信", message: "リクエストを送信しました。相手から承認されるまでお待ち下さい。", preferredStyle: .Alert)
+                    
+                    let myOkAction = UIAlertAction(title: "閉じる", style: .Default) { action in
+                        println("close")
+                    }
+                    myAlert.addAction(myOkAction)
+                    
+                    var view = self.appDelegate.window!.rootViewController
+                    view!.presentViewController(myAlert, animated: true, completion: nil)
+                }
+        }
     }
     
 }
