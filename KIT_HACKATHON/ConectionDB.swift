@@ -81,6 +81,7 @@ class ConnectionDB{
                     
                     var view = self.appDelegate.window!.rootViewController
                     view!.presentViewController(myAlert, animated: true, completion: nil)
+                }
         }
     }
     

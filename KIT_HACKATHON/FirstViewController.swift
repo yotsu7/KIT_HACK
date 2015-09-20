@@ -48,6 +48,7 @@ class FirstViewController: UIViewController {
             label.backgroundColor = UIColor.magentaColor()
             label.layer.masksToBounds = true
             label.layer.cornerRadius = 10.0
+            label.tag = i + 1
             label.layer.position = CGPoint(x: self.view.bounds.width/6 + 180.0, y: yPosition)
             self.view.addSubview(label)
             
