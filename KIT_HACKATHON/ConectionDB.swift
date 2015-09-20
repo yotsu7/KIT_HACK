@@ -26,6 +26,14 @@ class ConnectionDB{
     
     func sign_up () {
         var my_number = appDelegate.myNumber!
+        
+        var preference_faces = [NSDictionary]()
+        for face_type in appDelegate.faceType! {
+            preference_faces.append(["face_type_id": String(face_type)])
+        }
+        
+        println(preference_faces)
+        
         let parameters = [
             "user": [
                 "my_number": my_number,
@@ -37,7 +45,7 @@ class ConnectionDB{
                 "gender": "0",
                 "face_type_id": "1",
                 "preference_faces_attributes": [
-                    ["face_type_id": "2"],
+                    preference_faces
                 ],
                 "crime_histories_attributes": [
                     ["crime_name": "万引き", "crimed_at": "2015-01-01"],
@@ -53,6 +61,7 @@ class ConnectionDB{
                 ],
             ]
         ]
+        
         
         let priorityProcessing = "priorityProcessing"
         let ns = NSNotificationCenter.defaultCenter()
