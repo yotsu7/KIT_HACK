@@ -131,7 +131,7 @@ class ConnectionDB{
         var accessToken = appDelegate.accessToken!
         var myNumber    = appDelegate.myNumber!
         println("myNumber: \(myNumber)")
-        var userData    = JSON(url: "\(self.url)/users/0.json?access_token=\(accessToken)&my_number=1\(myNumber)")
+        var userData    = JSON(url: "\(self.url)/users/0.json?access_token=\(accessToken)&my_number=\(myNumber)")
         
         return userData
     }

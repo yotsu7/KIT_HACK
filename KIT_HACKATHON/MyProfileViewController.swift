@@ -26,7 +26,7 @@ class MyProfileViewController: UIViewController {
         myProfileArray.append(myProfile["address"].toString())
         myProfileArray.append(myProfile["hobby"].toString())
         
-        if myProfile[0]["gender"].toString() == "0"{
+        if myProfile["gender"].toString() == "0"{
             myProfileArray.append("男性")
         }else{
             myProfileArray.append("女性")
